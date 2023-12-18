@@ -1,0 +1,139 @@
+.Service {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .Service-h1{
+    font-size: 35px;
+  }
+  
+  .h4 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 21px;
+  }
+  .service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Add space between items */
+    gap: 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  
+  .service-item {
+    width: calc(25% - 1px); /* Adjust width and include space */
+    width: 27%;
+    height: 400px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: left;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  .service-item:hover {
+    background-color: #007bff;
+    color: white;
+    transform: translateY(-5px);
+  }
+  
+  .service-item h2 {
+    margin-top: 0;
+    font-size: 25px;
+  }
+  
+  .service-item p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 19px;
+  }
+  
+  .read-more {
+    display: block;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .more-info {
+    display: none;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .service-item:hover {
+    background-color: #007bff;
+    color: white;
+    transform: translateY(-5px);
+  }
+  
+  .service-item:hover .read-more {
+    color: white;
+  }
+ .icon {
+    position:absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 767px) {
+    .service-container {
+      margin-left: 5%; /* Adjust margins for smaller screens */
+      margin-right: 5%;
+    }
+  
+    .service-item {
+      width: 100%; /* Adjust width for two items per row with spacing */
+      height: auto; /* Allow height to adjust based on content */
+      margin-bottom: 20px; /* Adjust margin between items for smaller screens */
+      padding: 15px; /* Adjust padding for smaller screens */
+      border-radius: 15px; /* Adjust border-radius for smaller screens */
+    }
+  
+    .icon {
+      position: relative; /* Change position to relative for smaller screens */
+      top: auto;
+      left: auto;
+      transform: none; /* Remove the transform for smaller screens */
+      margin-bottom: 10px; /* Adjust margin bottom for smaller screens */
+    }
+  
+    .service-item h2 {
+      margin-top: 10px; /* Adjust margin top for smaller screens */
+      font-size: 18px; /* Adjust font size for smaller screens */
+    }
+  
+    .service-item p {
+      margin-bottom: 10px; /* Adjust margin bottom for smaller screens */
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  
+    .read-more {
+      display: block;
+      text-align: center;
+      color: blue;
+      text-decoration: underline;
+      cursor: pointer;
+      margin-top: 10px; /* Adjust margin top for smaller screens */
+      font-size: 19px;
+    }
+  
+    .more-info {
+      display: none; /* Hide more-info initially for smaller screens */
+      padding: 10px;
+      background-color: #f5f5f5;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+  }
+  

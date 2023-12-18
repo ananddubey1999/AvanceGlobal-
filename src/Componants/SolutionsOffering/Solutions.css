@@ -1,0 +1,179 @@
+.solutionsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* margin-top: 20px; */
+    border: 2px solid white; 
+    margin-left: 12%;
+    margin-right: 10%;
+    height: 440px;
+    margin-top: 1%;
+
+    /* Add any other styles you need for the main container */
+  }
+  
+  /* Content container inside solutionsContainer */
+  .contentContainer {
+    display: flex;
+    flex: 1; /* Allow it to take remaining space */
+    flex-direction: column; 
+    /* Add any other styles you need for the content container */
+
+  }
+  .solutionsContainer h1{
+    font-size: 35px;
+  }
+  .solutionsContainer p{
+    font-size: 20px;
+  }
+  
+  /* Grid container for topics */
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three columns */
+    gap: 20px; /* Gap between topics */
+    height: 20px;
+    width: 30px;
+    margin-top: 20px;
+    /* Add any other styles you need for the grid container */
+  }
+  
+
+.topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-bottom-right-radius: 17px;
+    height: 55px;
+    width: 270px;
+    position: relative; /* Add relative positioning */
+    padding-left: 5px;
+    /* Add any other styles you need for the topics */
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.5); /* Black shadow effect */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition effect */
+    font-size: 19px;
+  }
+  
+  /* Blue vertical line */
+  .topic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -2px; /* Adjust the position of the line */
+    height: 100%;
+    width: 3px;
+    background-color: #346ef6;
+    border-top-left-radius: 17px; /* Rounded border for top left */
+    border-bottom-left-radius: 17px; /* Rounded border for bottom left */
+  }
+  
+  .topic:hover {
+    background-color: #346ef6; /* Change background color on hover */
+    transform: translateX(5px); /* Move the content 5px to the right */
+    color: white;
+  }
+  
+  
+  /* Image container */
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* Add margin to create space between image and content */
+    width: 70%; /* Adjust the width as needed */
+    margin-left: 35%; /* Adjust the left margin to position the image */
+    height: 1px;
+    /* Add any other styles you need for the image container */
+  }
+
+
+
+/* Media query for responsiveness */
+@media screen and (max-width: 767px) {
+    .solutionsContainer {
+      display: flex;
+      flex-direction: column;
+      border: 2px solid white;
+      margin: 5% 5%;
+      height: auto; /* Allow height to adjust based on content */
+      padding: 10px; /* Added padding for better spacing */
+    }
+  
+    .contentContainer {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 0; /* Adjust margins for mobile */
+      width: 100%;
+    }
+  
+    .gridContainer {
+    display: flex;
+      flex-wrap: wrap; /* Change to wrap items */
+      justify-content: space-around; /* Adjust content positioning */
+      gap: 10px; /* Gap between topics */
+      margin-top: 10px; /* Adjust margin for mobile */
+      width: auto;
+      height: inherit;
+    }
+  
+    .topic {
+      width: calc(90% - 10px); /* Adjust width for mobile view */
+      margin-bottom: 10px; /* Adjust margin for mobile */
+      height: 50px; /* Reset height */
+    }
+  
+    .imageContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; /* Adjust width for mobile view */
+      margin-top: 20px; /* Adjust margin for mobile */
+      height: auto; /* Reset height */
+    }
+    .img{
+      height: 350px;
+      width: fit-content;
+      margin-right: 90%;
+    }
+  
+  }
+
+/* Styles for screens between 800px and 1000px */
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+  .solutionsContainer {
+    /* Adjusted styles for solutionsContainer between 800px and 1000px */
+    margin: 3% 5%; /* Adjusted margin */
+    padding: 8px; /* Adjusted padding */
+  }
+
+  .contentContainer {
+    /* Adjusted styles for contentContainer between 800px and 1000px */
+    margin: 8px 0; /* Adjusted margin */
+  }
+
+  .gridContainer {
+    /* Adjusted styles for gridContainer between 800px and 1000px */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 40px; /* Adjusted gap between topics */
+  }
+
+  .topic {
+    /* Adjusted styles for topic between 800px and 1000px */
+    width: calc(150% - 10px); /* Adjusted width for two-column layout */
+  }
+
+  .imageContainer {
+    /* Adjusted styles for imageContainer between 800px and 1000px */
+    margin-top: 60px; /* Adjusted margin */
+  }
+
+  .img {
+    /* Adjusted styles for img between 800px and 1000px */
+    height: 300px; /* Adjusted height */
+    width: auto; /* Allow width to adjust */
+    margin-right: 0; /* Reset margin */
+  }
+}
+
+  
