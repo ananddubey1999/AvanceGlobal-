@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -42,8 +42,8 @@ const Navbar = () => {
 
         {/* 3rd social media links */}
         <div className="social-media">
-        <button className="GetFree">Get Free Quotes</button>
-
+          <Link to="get-free-quotes">
+        <button className="GetFree">Get Free Quotes</button></Link>
           {/* hamburget menu start  */}
           <div className="hamburger-menu">
             <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>

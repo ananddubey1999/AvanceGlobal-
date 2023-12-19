@@ -6,6 +6,7 @@ import MainHome from './Pages/MainHome';
 import ContactsUs from './Pages/ContactsUs';
 import ReadMore from './Pages/ReadMore';
 import GetFreeQuotes from './Get Free Quotes/GetFreeQuotes';
+import Infrastructures from './Pages/Infrastructures';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/contact" element={<ContactsUs />} />
           <Route path="/learn-more" element={<ReadMore/>} />
           <Route path="/get-free-quotes" element={<GetFreeQuotes />} />
+          <Route path="/Infrastructure" element={<Infrastructures />} />
           {/* Define more routes as needed */}
         </Routes>
       </div>
