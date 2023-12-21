@@ -1,0 +1,115 @@
+/* Insure.css */
+
+.insure-container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-top: 60px;
+    padding-bottom: 2%;
+  }
+  
+  .title4 {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+  }
+  
+  .content4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%; /* Adjust the maximum width as needed */
+  }
+  
+  .text {
+    width: calc(80% - 30px); /* Adjust the width of the text column */
+    font-size: 21px; /* Increase the font size of the paragraph */
+  }
+  
+  .text p {
+    margin-top: 0; /* Remove top margin for the paragraph */
+  }
+  
+  .content4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .image-container4 {
+    width: calc(50% - 10px); /* Adjust the width of the image column */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-container4 img {
+     /* Adjust the maximum width of the image */
+    height: 350px;
+    width: 500px; /* Set the image width to fill the container */
+    margin-bottom: 110px;
+  }
+
+  @media (max-width: 768px) {
+    .insure-container4 {
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 20px;
+    }
+  
+    .title4 {
+      font-size: 28px;
+    }
+  
+    .content4 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .text {
+      width: 100%;
+      font-size: 18px;
+      margin: 20px 0;
+    }
+  
+    .image-container4 {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  
+    .image-container4 img {
+      width: 80%;
+      height: auto;
+      margin-top: 20px;
+    }
+    .insure-container4 .content4 .text p {
+        font-size: 12px; /* Example smaller font size for smaller screens */
+        /* Adjust other styles as needed for responsiveness */
+      }
+  }
+
+  .section-title {
+    font-size: 24px; /* Title font size */
+    margin-bottom: 10px; /* Bottom margin for spacing */
+  }
+  
+  /* Responsive styles for titles */
+  @media screen and (max-width: 767px) {
+    .section-title {
+      font-size: 20px; /* Adjust title font size for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 417px) {
+    .section-title {
+      font-size: 18px; /* Further reduce title font size for very small screens */
+    }
+  }
+  

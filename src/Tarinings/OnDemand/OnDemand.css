@@ -1,0 +1,91 @@
+.insure-container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 5%;
+  }
+  
+  .title4 {
+    text-align: center;
+    margin-top: 2px;
+    font-size: 35px;
+  }
+  
+  .content4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%; /* Adjust the maximum width as needed */
+  }
+  
+  .text {
+    width: calc(80% - 30px); /* Adjust the width of the text column */
+    font-size: 21px; 
+  }
+  
+  .text p {
+    margin-top: 0;
+  }
+  
+  .content4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .image-container4 {
+    width: calc(50% - 10px); /* Adjust the width of the image column */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-container4 img {
+    height: 350px;
+    width: 500px; /* Set the image width to fill the container */
+    
+  }
+
+  @media (max-width: 768px) {
+    .insure-container4 {
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 20px;
+    }
+  
+    .title4 {
+      font-size: 28px;
+    }
+  
+    .content4 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .text {
+      width: 100%;
+      font-size: 18px;
+      margin: 20px 0;
+    }
+  
+    .image-container4 {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  
+    .image-container4 img {
+      width: 80%;
+      height: auto;
+      margin-top: 20px;
+    }
+    .insure-container4 .content4 .text p {
+        font-size: 12px; /* Example smaller font size for smaller screens */
+        /* Adjust other styles as needed for responsiveness */
+      }
+  }
+  

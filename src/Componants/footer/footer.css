@@ -1,56 +1,58 @@
-.footerContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    padding: 10px;
-    max-width: 100%; /* Limit the maximum width */
-    overflow: hidden;
+.footerContainer11 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  background-color: black;
   }
 
-  .footerPart {
+  .footerPart11 {
     flex: 1;
     display: flex;
     flex-direction: column;
     padding: 5px;
     color: white;
+    background-color: black;
   }
   
   /* Add specific styling for each part here */
   
-  .firstPart {
+  .firstPart11 {
     /* Styles for the first part */
     margin-bottom: 6%;
   }
   
-  .secondPart {
+  .secondPart11 {
     /* Styles for the second part */
     margin-bottom: 28%;
     
   }
   
-  .thirdPart {
+  .thirdPart11 {
     /* Styles for the third part */
     margin-bottom: 40%;
   }
   
-  .fourthPart {
+  .fourthPart11 {
     /* Styles for the fourth part */
     display: flex;
     flex-direction: column;
     margin-bottom: 15%;
   }
   
-  .logo {
+  .logo11 {
     /* Styles for the logo */
     margin-right: 98%;
   }
-  .logo-img{
+  .logo-img11{
     height: 70px;
   }
   
 /* Add this CSS to your styles file or component */
-.icons {
+.icons11 {
   display: flex;
   justify-content:space-evenly;
   margin-left: -5%;
@@ -58,7 +60,7 @@
 }
 
 /* Styles for individual icons */
-.socialIcon {
+.socialIcon11 {
   color: rgb(72, 143, 243);
   background-color: #f2efef; /* Background color for the circle */
   border-radius: 50%; /* Makes it a circle */
@@ -70,79 +72,76 @@
   height: 25px;
 }
 
-.socialIcon:hover {
+.socialIcon11:hover {
   background-color: #555; /* Change background color on hover */
 }
 
 
-  .verticalTitles {
+  .verticalTitles11 {
     display: flex;
     flex-direction: column;
   }
   
-  .placeholderrs {
-    /* Styles for the placeholderrs and subscribe button */
-  }
   
-  .para{
+  .para11{
     font-size: 18px;
   }
 
-  .OurService{
+  .OurService11{
     padding-left: 100px;
     font-size: 20px;
   }
-  .serviceList {
+  .serviceList11 {
     list-style: none;
     padding-left: 100px;
     font-size: 17px;
    
   }
   
-  .serviceList li {
+  .serviceList11 li {
     /* Additional styles for list items if needed */
     cursor: pointer;
   }
 
   /* Add this CSS to your styles file or component */
-  .OurService{
+  .OurService11{
     padding-left: 100px;
     font-size: 20px;
   }
-.QuickLinks{
+.QuickLinks11{
   padding-left: 100px;
   font-size: 20px;
 }
-.quickLinksList {
+.quickLinksList11 {
     list-style: none;
     padding-left: 0;
     font-size: 17px;
     padding-left: 100px;
   }
   
-  .quickLinksList li {
+  .quickLinksList11 li {
     /* Additional styles for list items if needed */
     cursor: pointer;
   }
 
   /* Add this CSS to your styles file or component */
 
-  .ContactInfo{
+  .ContactInfo11{
     font-size: 20px;
   }
-.contactList {
+.contactList11 {
     list-style: none;
     padding-left: 0;
     font-size: 18px;
   }
   
-  .contactList li {
+  .contactList11 li {
     /* Additional styles for list items if needed */
     cursor: pointer;
   }
   
 /* Add this CSS to your styles file or component */
-.placeholderrs {
+.placeholderrs11 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -151,7 +150,7 @@
     
   }
   
-  .subscribeInput {
+  .subscribeInput11 {
     flex: 1;
     padding: 8px;
     border: 1px solid #ccc;
@@ -164,7 +163,7 @@
     
   }
   
-  .subscribeButton {
+  .subscribeButton11 {
     padding: 8px 20px;
     border: none;
     border-end-end-radius: 15px;
@@ -179,105 +178,58 @@
     
   }
   
-  .subscribeButton:hover {
+  .subscribeButton11:hover {
     background-color: #2559c1; /* Darker blue on hover */
   }
   
+/* Your existing CSS styles... */
+
 
 @media screen and (max-width: 767px) {
-    .footerContainer {
-      padding: 10px 5px; /* Adjust padding for smaller screens */
-      width: auto;
-    }
-  
-    .footerPart {
-      width: auto;
-    }
-    .firstPart {
-      margin-bottom: 8%; /* Adjust margin for the first part */
-    }
-  
-    .secondPart {
-      margin-bottom: 30%; /* Adjust margin for the second part */
-    }
-  
-    .thirdPart {
-      margin-bottom: 42%; /* Adjust margin for the third part */
-    }
-  
-    .fourthPart {
-       /* Adjust margin for the fourth part */
-      width: 90%; /* Adjust width for smaller screens */
-      margin-bottom: 10px;
-    }
-  
-    .logo {
-      margin-right: 95%; /* Adjust margin for the logo */
-    }
-  
-    /* Update the placeholderrs width for responsiveness */
-    .placeholderrs {
-      width: 90%; /* Adjust the width as needed for smaller screens */
-      max-width: 350px; /* Set maximum width for the placeholderrs */
-    }
-  
-    .subscribeInput {
-      margin-top: 8%; /* Adjust margin for the subscribe input */
-    }
-  
-    .subscribeButton {
-      margin-top: 8%; /* Adjust margin for the subscribe button */
-    }
-    .p{
-      font-size: 7px;
-      margin-bottom: 12px;
-    }
-    .serviceList li,
-    .quickLinksList li,
-    .contactList li {
-      /* Adjust font size, margin, padding, etc. for smaller screens */
-      font-size: 10px;
-      margin-bottom: 8px;
-      /* Add more styles as needed */
-    }
-  
-    .placeholderrs {
-      width: 90%; /* Adjust width for smaller screens */
-      max-width: 100%; /* Set maximum width */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .subscribeInput {
-      width: 80%; /* Adjust width for the input */
-      margin-top: 10px; /* Adjust top margin */
-      padding: 8px;
-      border: 1px solid #ccc;
-      border-radius: 15px;
-    }
-  
-    .subscribeButton {
-      width: 90%; /* Adjust width for the button */
-      margin-top: 10px; /* Adjust top margin */
-      padding: 6px 16px;
-      border: none;
-      border-radius: 15px;
-      background-color: #346ef6; /* Blue color for the button */
-      color: white;
-      cursor: pointer;
-      transition: background-color 0.3s ease; /* Transition effect */
-    }
-  
-    .subscribeButton:hover {
-      background-color: #2559c1; /* Darker blue on hover */
-    }
-    
+  .footerPart11 {
+    width: 100%;
+    margin-bottom: 20px;
   }
-  
-  @media screen and (max-width: 417px) {
+}
 
-    .footerPart {
-      width: auto;
-    }
+/* Additional adjustments for very small screens */
+@media screen and (max-width: 417px) {
+  .footerPart11 {
+    width: 100%;
   }
+}
+
+
+/* Updated styles for responsiveness */
+@media screen and (max-width: 767px) {
+  /* Previous media queries... */
+
+  /* Adjustments for subscription input and button */
+  .placeholderrs11 {
+    width: 100%; /* Occupy full width */
+    max-width: none; /* Remove maximum width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subscribeInput11 {
+    width: calc(100% - 20px); /* Adjust input width to fit container */
+    margin-top: 10px;
+    padding: 8px;
+  }
+
+  .subscribeButton11 {
+    width: calc(100% - 20px); /* Adjust button width to fit container */
+    margin-top: 10px;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 417px) {
+  /* Ensure subscription input and button occupy full width */
+  .subscribeInput11,
+  .subscribeButton11 {
+    width: calc(100% - 20px); /* Adjust width to fit container */
+  }
+}

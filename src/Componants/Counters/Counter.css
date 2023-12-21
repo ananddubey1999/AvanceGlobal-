@@ -1,4 +1,4 @@
-.container {
+.Countercontainer {
     border: 1px solid #7090e7;
     border-radius: 5px;
     padding: 20px;
@@ -13,6 +13,8 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Fixed background */
+  
+    
 }
 
   .counter-content {
@@ -23,7 +25,7 @@
     width: calc(15% - 5px); /* Adjust width to accommodate the gap */
     /* border: 1px solid #e0e0e0;
     border-radius: 5px; */
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     padding: 20px;
     margin-left: 5%;
@@ -55,7 +57,4 @@
     font-size: 16px; /* Adjust font size for mobile */
   }
 
-
-
-  /* Additional styles or adjustments for smaller screens */
 }

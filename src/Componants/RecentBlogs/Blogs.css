@@ -1,6 +1,8 @@
 .blogsContainer {
     text-align: center;
     margin: 20px;
+    padding-top: 6%;
+    padding-bottom: 4%;
   }
   
   .title {
@@ -13,8 +15,8 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
   }
   
   .frame {
@@ -25,6 +27,7 @@
     padding: 2px;
     margin-bottom: 20px;
     box-sizing: border-box;
+    height: 480px;
   }
   
   .frame img {
@@ -36,11 +39,10 @@
   }
   
   .frame p {
-    font-size: 16px;
     line-height: 1.5;
     transition: color 0.3s ease; /* Adding transition effect */
     cursor: pointer;
-    font-size: 19px;
+    font-size: 28px;
   }
   
   /* Change paragraph text color to blue on hover */

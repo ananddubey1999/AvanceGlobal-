@@ -1,0 +1,37 @@
+.products-container3 {
+    width: 100%;
+    height: 400px; /* Set your desired height */
+    background-position: top;
+    /* Add more styles as needed */
+  }
+  
+  .background-image3 {
+      background-image: url('../../../public/Img/OIP.jpg'); /* Add the path to your background image */
+     width: 100%;
+    height: 100%; 
+     background-size: cover;
+    background-position: top;
+    background-attachment: fixed; /* Fix the background at the top of the window */
+    position: relative; 
+  }
+  
+  .title3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff; /* Set your desired text color */
+    font-size: 50px; /* Set your desired font size */
+    text-align: center;
+    /* Add more styles as needed */
+  }
+  
+  @media (max-width: 768px) {
+    .products-container3 {
+      height: 300px; /* Adjust the height for smaller screens */
+    }
+  
+    .title3 {
+      font-size: 36px; /* Adjust font size for smaller screens */
+    }
+  }

@@ -1,4 +1,4 @@
-.containers {
+.Contaccontainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,6 +7,7 @@
   background-image: url('https://media.istockphoto.com/vectors/technology-background-vector-vector-id1093608482?k=6&m=1093608482&s=170667a&w=0&h=mcSXej74zsuRHjdLR7nMn76AviVaVHy3zjjwFmGE6Vg='); /* Replace with your background image path */
   background-size: cover;
   background-position: center;
+  
   /* margin-left: 2%;
   margin-right: 2%; */
   /* Additional background properties */
@@ -16,6 +17,7 @@
   text-align: center;
   color: white; /* Text color */
   padding: 20px; /* Adjust padding as needed */
+  
 }
 
 .Contact-content h3 {
@@ -49,7 +51,7 @@
 
 /* For screens smaller than 768px */
 @media only screen and (max-width: 767px) {
-  .containers {
+  .Contaccontainer {
     height: 250px; /* Adjusted height for smaller screens */
   }
 

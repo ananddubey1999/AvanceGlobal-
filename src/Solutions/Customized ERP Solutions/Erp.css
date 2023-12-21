@@ -1,0 +1,140 @@
+/* AvanceTest.css */
+
+.Erp-container6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-top: 40px;
+  }
+  
+  .Erp-title6 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+  }
+  
+  .Erp-content6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%; /* Adjust the maximum width as needed */
+  }
+  
+  .Erp-text6 {
+    width: calc(80% - 30px); /* Adjust the width of the text column */
+    font-size: 21px; /* Increase the font size of the paragraph */
+  }
+  
+  .Erp-text6 p {
+    margin-top: 0; /* Remove top margin for the paragraph */
+  }
+  .Erp-text6 h3 {
+    font-size: 21px; /* Adjust font size as needed */
+    margin-top: 15px; /* Adjust margin-top as needed */
+  }
+  
+  .Erp-content6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Erp-computer-list6 {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px; /* Adjust margin-top as needed */
+    padding-left: 50px;
+  }
+  
+  .Erp-computer-list6 li {
+    padding-left: 20px; /* Adjust padding as needed */
+    position: relative;
+    line-height: 1.5; /* Adjust line height as needed */
+    font-size: 19px;
+  }
+  
+  .Erp-computer-list6 li:before {
+    content: '';
+    width: 10px; /* Adjust the width of the circle */
+    height: 10px; /* Adjust the height of the circle */
+    border-radius: 50%;
+    background-color: #333; /* Color of the circle */
+    position: absolute;
+    left: -20px; /* Adjust the position of the circle */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .Erp-image-container6 {
+    width: calc(50% - 10px); /* Adjust the width of the image column */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .Erp-image-container6 img {
+     /* Adjust the maximum width of the image */
+    height: 450px;
+    width: 500px; /* Set the image width to fill the container */
+    margin-top: 38px;
+  }
+  
+  @media (max-width: 768px) {
+    .Erp-container6 {
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 20px;
+    }
+  
+    .Erp-title6 {
+      font-size: 28px;
+    }
+  
+    .Erp-content6 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .Erp-text6 {
+      width: 100%;
+      font-size: 18px;
+      margin: 20px 0;
+    }
+  
+    .Erp-image-container6 {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  
+    .Erp-image-container6 img {
+      width: 80%;
+      height: auto;
+      margin-top: 20px;
+    }
+    .Erp-container6 .Erp-title6 {
+        font-size: 20px; /* Example smaller font size for smaller screens */
+        /* Adjust other title styles as needed for responsiveness */
+      }
+    
+      .Erp-container6 .Erp-content6 .Erp-text6 p {
+        font-size: 12px; /* Example smaller font size for paragraphs */
+        /* Adjust other paragraph styles as needed for responsiveness */
+      }
+    
+      .Erp-container6 .Erp-content6 .Erp-text6 h3 {
+        font-size: 15px; /* Example smaller font size for headings */
+        /* Adjust other heading styles as needed for responsiveness */
+      }
+    
+      .Erp-container6 .Erp-content6 .Erp-text6 .Erp-computer-list6 li {
+        font-size: 11px; /* Example smaller font size for list items */
+        /* Adjust other list item styles as needed for responsiveness */
+      }
+  }
+  

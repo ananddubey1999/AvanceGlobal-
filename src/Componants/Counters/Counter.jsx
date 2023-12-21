@@ -50,7 +50,7 @@ function Counter() {
   }, []);
 
   return (
-    <div className="container" ref={counterRef}>
+    <div className="Countercontainer" ref={counterRef}>
       <div className="counter-content" data-target="20" data-text="Years of Experience">0+<br/>Years of Experience</div>
       <div className="counter-content" data-target="50" data-text="Complete Projects">0+<br/>Complete Projects</div>
       <div className="counter-content" data-target="100" data-text="Employees">0+<br/>Employees</div>
