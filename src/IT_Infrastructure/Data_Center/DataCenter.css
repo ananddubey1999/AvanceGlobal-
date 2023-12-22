@@ -6,20 +6,25 @@
     padding: 20px;
     margin-left: 7%;
     margin-right: 7%;
+    padding-top: 4%;
     
   }
   
   .data-center-title {
     text-align: center;
-    margin-bottom: 20px;
+
     
   }
   
   .data-center-title h1 {
-    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
   }
   .data-center-title p{
-    font-family: 'Arial', sans-serif; /* Change the font family as needed */
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify; /* Change the font family as needed */
     font-size: 25px;
   }
   
@@ -44,12 +49,16 @@
   .data-center-right h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
   }
   .data-center-left ul li{
     font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
   }
   .data-center-right ul li{
     font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .data-center-left ul li::before,

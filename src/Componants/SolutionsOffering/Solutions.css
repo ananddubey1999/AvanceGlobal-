@@ -21,10 +21,12 @@
 
   }
   .solutionsContainer h1{
-    font-size: 35px;
+    font-size: 40px;
+    font-weight: 600;
   }
   .solutionsContainer p{
     font-size: 20px;
+    text-align: justify;
   }
   
   /* Grid container for topics */
@@ -63,13 +65,13 @@
     left: -2px; /* Adjust the position of the line */
     height: 100%;
     width: 3px;
-    background-color: #346ef6;
+    background-color:  #6610f2;
     border-top-left-radius: 17px; /* Rounded border for top left */
     border-bottom-left-radius: 17px; /* Rounded border for bottom left */
   }
   
   .topic:hover {
-    background-color: #346ef6; /* Change background color on hover */
+    background-color: #6610f2; /* Change background color on hover */
     transform: translateX(5px); /* Move the content 5px to the right */
     color: white;
   }

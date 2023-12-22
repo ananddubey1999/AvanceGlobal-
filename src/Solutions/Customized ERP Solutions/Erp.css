@@ -12,7 +12,9 @@
   .Erp-title6 {
     text-align: center;
     margin-top: 20px;
-    font-size: 35px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
   }
   
   .Erp-content6 {
@@ -25,14 +27,18 @@
   .Erp-text6 {
     width: calc(80% - 30px); /* Adjust the width of the text column */
     font-size: 21px; /* Increase the font size of the paragraph */
+  
   }
   
   .Erp-text6 p {
     margin-top: 0; /* Remove top margin for the paragraph */
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
   }
   .Erp-text6 h3 {
     font-size: 21px; /* Adjust font size as needed */
     margin-top: 15px; /* Adjust margin-top as needed */
+    font-family: 'Open Sans', sans-serif;
   }
   
   .Erp-content6 {
@@ -54,6 +60,7 @@
     position: relative;
     line-height: 1.5; /* Adjust line height as needed */
     font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .Erp-computer-list6 li:before {

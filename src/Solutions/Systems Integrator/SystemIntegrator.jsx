@@ -1,11 +1,11 @@
 import React from 'react'
-
+import './SystemIntegrator.css'; 
 function SystemIntegrator() {
     return (
-        <div className="insure-container4">
-          <h2 className="title4">Systems Integrator</h2>
-          <div className="content4">
-            <div className="text">
+        <div className="insure-container8">
+          <h2 className="title8">Systems Integrator</h2>
+          <div className="content8">
+            <div className="text8">
               <p>
               We customized Every Organization requires a host of Equipment and Hardware devices for an efficient technical infrastructure. AGC presents to you all such Infrastructural Hardware equipment of telecommunications, IT, Security, Power and Access control. Remember, we provide end-to-end solutions for your technical infrastructure and not just sell equipment.<br/>
                 <br/>
@@ -14,7 +14,7 @@ function SystemIntegrator() {
               Active-Passive Networking, Data Centre Setup, Cyber Security & Audit etc.
               </p>
             </div>
-            <div className="image-container4">
+            <div className="image-container8">
               <img src="./Img/hardware.png" alt="Your Image" />
             </div>
           </div>

@@ -1,9 +1,12 @@
 .Networking {
     text-align: center;
-    margin-bottom: 30px;
+    padding-top: 4%;
   }
   .Networking-h1{
-    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
   }
   
   .networkings-paragraph{
@@ -12,6 +15,8 @@
     font-size: 25px;
     margin-left: 8%;
     margin-right: 8%;
+    font-family: 'Open Sans', sans-serif;
+     text-align: justify;
   }
   .Networking-container {
     display: flex;
@@ -45,12 +50,17 @@
   .Networking-item h2 {
     margin-top: 0;
     font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-weight:600;
   }
   
   .Networking-item p {
     margin-bottom: 15px;
     margin-top: 15px;
-    font-size: 24px;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
   }
   
   .read-more {

@@ -1,0 +1,95 @@
+/* Invest.css */
+
+.Digital-container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  
+  .Digital-title5 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+  
+  .Digital-content5 {
+    display: flex;
+    flex-direction: row-reverse; /* Adjust to reverse the order */
+    align-items: center;
+    max-width: 80%; /* Adjust the maximum width as needed */
+  }
+  
+  .Digital-text5 {
+    width: calc(80% - 30px); /* Adjust the width of the text column */
+    font-size: 21px; /* Increase the font size of the paragraph */
+  }
+  
+  .Digital-text5 p {
+    margin-top: 0; /* Remove top margin for the paragraph */
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+  }
+  
+  .Digital-image-container5 {
+    width: calc(50% - 10px); /* Adjust the width of the image column */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .Digital-image-container5 img {
+    height: 350px;
+    width: 600px; /* Set the image width to fill the container */
+    margin-top: 38px;
+    padding-right: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .Digital-container5 {
+        padding-left: 5%;
+        padding-top: 20px;
+    }
+  
+    .Digital-title5 {
+      font-size: 28px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  
+    .Digital-text5 p {
+        margin-top: 0; /* Remove top margin for the paragraph */
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+      }
+    .Digital-content5 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .Digital-text5 {
+      width: 100%;
+      font-size: 12px;
+      margin: 20px 0;
+    }
+  
+    .Digital-image-container5 {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  
+    .Digital-image-container5 img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+  }
+  

@@ -3,7 +3,7 @@
 * {
 
   box-sizing: border-box;
-  font-family: "Jost", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Home.css */
@@ -15,6 +15,7 @@
     border: 2px solid white; /* Black border with 2px width */
     padding: 20px; /* Add padding for content spacing */
     width: auto;
+    height: inherit;
   }
   
   .content {
@@ -26,6 +27,8 @@
   
 .contact-p{
   font-size: 19px;
+  text-align: justify;
+  
 }
 
 .buttons {
@@ -40,7 +43,7 @@
     margin: 0 5px; /* Adjust spacing between buttons */
     border: none;
     font-size: 15px;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: #ffffff; /* Blue background color */
     color: #5da8f8; /* Text color */
     cursor: pointer;
@@ -68,7 +71,7 @@
   
   .custom-button1:hover {
     color: #ffffff; /* Maintain white text color on hover */
-    background-color: #346ef6; /* Change background color on hover */
+    background-color: #184ac0; /* Change background color on hover */
   }
   
   .custom-button2 {
@@ -76,7 +79,7 @@
     margin: 0 5px; /* Adjust spacing between buttons */
     border: none;
     font-size: 15px;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color:#5da8f8; /* Blue background color */
     color: #ffffff; /* Text color */
     cursor: pointer;
@@ -101,7 +104,7 @@
     left: 0;
   }
   .custom-button2:hover {
-    background-color: #346ef6; /* Change background color on hover */
+    background-color: #184ac0; /* Change background color on hover */
   }
   
   .custom-button:hover {
@@ -113,12 +116,12 @@
   .image-container {
     flex: 1; /* Allows the image container to take available space */
     margin-right: 10%;
-    margin-top: 5%;
+    margin-top: 4%;
   }
   
   .image-container img {
     max-width: 100%; /* Ensure the image doesn't exceed its container */
-    height: 500px; /* Maintain aspect ratio */
+    height: 600px; /* Maintain aspect ratio */
   }
   
 @media screen and (max-width: 767px) {

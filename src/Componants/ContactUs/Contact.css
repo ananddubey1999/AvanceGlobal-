@@ -2,14 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 350px; /* Adjust height as needed */
+  height: 420px; /* Adjust height as needed */
   margin-top: 2%;
   background-image: url('https://media.istockphoto.com/vectors/technology-background-vector-vector-id1093608482?k=6&m=1093608482&s=170667a&w=0&h=mcSXej74zsuRHjdLR7nMn76AviVaVHy3zjjwFmGE6Vg='); /* Replace with your background image path */
   background-size: cover;
   background-position: center;
   
-  /* margin-left: 2%;
-  margin-right: 2%; */
+  margin-left: 1%;
+  margin-right: 1%;
   /* Additional background properties */
 }
 

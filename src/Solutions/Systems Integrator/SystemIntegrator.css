@@ -1,44 +1,53 @@
 /* Insure.css */
+body {
+  font-family: 'Open Sans', sans-serif; /* Change 'Arial' to your preferred font */
+  /* You can add more styles for the body here if needed */
+}
 
-.insure-container4 {
+.insure-container8 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 3%;
     padding-right: 5%;
-    padding-top: 40px;
+    padding-top: 4%;
   }
   
-  .title4 {
+  .title8 {
     text-align: center;
-    margin-top: 20px;
-    font-size: 35px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
   }
   
-  .content4 {
+  .content8 {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 80%; /* Adjust the maximum width as needed */
   }
   
-  .text {
+  .text8 {
     width: calc(80% - 30px); /* Adjust the width of the text column */
     font-size: 21px; /* Increase the font size of the paragraph */
   }
   
-  .text p {
+  .text8 p {
     margin-top: 0; /* Remove top margin for the paragraph */
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    padding-right: 20px;
   }
   
-  .content4 {
+  .content8 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
   
-  .image-container4 {
+  .image-container8 {
     width: calc(50% - 10px); /* Adjust the width of the image column */
     display: flex;
     justify-content: flex-end;
@@ -46,7 +55,7 @@
     margin-bottom: 20px;
   }
   
-  .image-container4 img {
+  .image-container8 img {
      /* Adjust the maximum width of the image */
     height: 380px;
     width: 550px; /* Set the image width to fill the container */
@@ -54,40 +63,40 @@
   }
 
   @media (max-width: 768px) {
-    .insure-container4 {
+    .insure-container8 {
       padding-left: 5%;
       padding-right: 5%;
       padding-top: 20px;
     }
   
-    .title4 {
+    .title8 {
       font-size: 28px;
     }
   
-    .content4 {
+    .content8 {
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
   
-    .text {
+    .text8 {
       width: 100%;
       font-size: 18px;
       margin: 20px 0;
     }
   
-    .image-container4 {
+    .image-container8 {
       width: 100%;
       justify-content: center;
       margin-bottom: 20px;
     }
   
-    .image-container4 img {
+    .image-container8 img {
       width: 80%;
       height: auto;
       margin-top: 20px;
     }
-    .insure-container4 .content4 .text p {
+    .insure-container8 .content8 .text8 p {
         font-size: 12px; /* Example smaller font size for smaller screens */
         /* Adjust other styles as needed for responsiveness */
       }

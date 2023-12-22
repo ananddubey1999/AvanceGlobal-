@@ -1,46 +1,51 @@
 /* Insure.css */
 
-.insure-container4 {
+.Ana-container4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 3%;
     padding-right: 5%;
-    padding-top: 60px;
-    padding-bottom: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
   }
   
-  .title4 {
+  .Ana-title4 {
     text-align: center;
-    margin-top: 20px;
+    margin-bottom: 30px;
     padding-bottom: 20px;
-    font-size: 35px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
   }
   
-  .content4 {
+  .Ana-content4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 80%; /* Adjust the maximum width as needed */
   }
   
-  .text {
+  .Ana-text {
     width: calc(80% - 30px); /* Adjust the width of the text column */
-    font-size: 21px; /* Increase the font size of the paragraph */
+    font-size: 18px; /* Increase the font size of the paragraph */
   }
   
-  .text p {
+  .Ana-text p {
     margin-top: 0; /* Remove top margin for the paragraph */
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    padding-right: 15px;
   }
   
-  .content4 {
+  .Ana-content4 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
   
-  .image-container4 {
+  .Ana-image-container4 {
     width: calc(50% - 10px); /* Adjust the width of the image column */
     display: flex;
     justify-content: flex-end;
@@ -48,68 +53,77 @@
     margin-bottom: 20px;
   }
   
-  .image-container4 img {
+  .Ana-image-container4 img {
      /* Adjust the maximum width of the image */
     height: 350px;
     width: 500px; /* Set the image width to fill the container */
     margin-bottom: 110px;
   }
-
+  .section-title {
+    font-size: 24px; /* Title font size */
+    margin-bottom: 10px; /* Bottom margin for spacing */
+    font-family: 'Open Sans', sans-serif;
+  }
+  
   @media (max-width: 768px) {
-    .insure-container4 {
+    .Ana-container4 {
       padding-left: 5%;
       padding-right: 5%;
       padding-top: 20px;
     }
   
-    .title4 {
+    .Ana-title4 {
       font-size: 28px;
     }
   
-    .content4 {
+    .Ana-content4 {
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
   
-    .text {
+    .Ana-text {
       width: 100%;
-      font-size: 18px;
+      font-size: 15px;
+      margin: 20px 0;
+    }
+    .Ana-text p {
+      width: 100%;
+      font-size: 15px;
       margin: 20px 0;
     }
   
-    .image-container4 {
+    .Ana-image-container4 {
       width: 100%;
       justify-content: center;
       margin-bottom: 20px;
     }
   
-    .image-container4 img {
+    .Ana-image-container4 img {
       width: 80%;
       height: auto;
       margin-top: 20px;
     }
-    .insure-container4 .content4 .text p {
+    .Ana-insure-container4 .Ana-content4 .Ana-text p {
         font-size: 12px; /* Example smaller font size for smaller screens */
         /* Adjust other styles as needed for responsiveness */
       }
+      .section-title{
+        font-size: 18px;
+      }
   }
 
-  .section-title {
-    font-size: 24px; /* Title font size */
-    margin-bottom: 10px; /* Bottom margin for spacing */
-  }
-  
+
   /* Responsive styles for titles */
   @media screen and (max-width: 767px) {
-    .section-title {
-      font-size: 20px; /* Adjust title font size for smaller screens */
+    .section-title p {
+      font-size: 5px; /* Adjust title font size for smaller screens */
     }
   }
   
   @media screen and (max-width: 417px) {
-    .section-title {
-      font-size: 18px; /* Further reduce title font size for very small screens */
+    .section-title p {
+      font-size: 5px; /* Further reduce title font size for very small screens */
     }
   }
   

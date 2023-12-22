@@ -1,5 +1,7 @@
 import React from 'react';
 import './Insure.css'; // Import the CSS file for the Insure component
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Insure() {
   return (

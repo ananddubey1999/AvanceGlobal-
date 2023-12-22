@@ -18,20 +18,21 @@ li {
   list-style: none;
 }
 
-.Logo{
-  height: 500px;
+.logo img{
+  height: 75px;
+  margin-left: 3%;
 }
 
 .GetFree{
   font-size: 20px;
   margin-left: 30%;
-  margin-top: 5%;
+  margin-top: 3%;
   color: #ffffff;
   cursor: pointer;
   border: 2px solid white;
   background-color: #5da8f8;
-  padding: 8px 12px; /* Adjust padding for better appearance */
-  border-radius: 20px; 
+  padding: 12px 22px; /* Adjust padding for better appearance */
+  border-radius: 30px; 
   transition: background-color 0.3s ease, transform 0.3s ease; 
 }
 .GetFree:hover {
@@ -93,12 +94,14 @@ li {
   text-transform: capitalize;
   color: rgba(0, 0, 3, 0.8);
   transition: 0.5s;
+  text-decoration: none;
 }
 .menu-link ul li:hover > a {
   transform-origin: left;
   color: rgba(0, 0, 3, 1);
   text-decoration: underline;
   transition: 0.5s;
+  text-decoration: underline;
 }
 .hamburger-menu {
   display: block;

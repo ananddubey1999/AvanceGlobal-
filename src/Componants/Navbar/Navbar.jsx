@@ -42,8 +42,8 @@ const Navbar = () => {
 
         {/* 3rd social media links */}
         <div className="social-media">
-          <Link to="get-free-quotes">
-        <button className="GetFree">Get Free Quotes</button></Link>
+          <NavLink to="Infrastructure">
+        <button className="GetFree">Get Free Quotes</button></NavLink>
           {/* hamburget menu start  */}
           <div className="hamburger-menu">
             <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>

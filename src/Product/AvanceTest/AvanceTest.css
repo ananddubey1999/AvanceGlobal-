@@ -6,57 +6,64 @@
     align-items: center;
     padding-left: 3%;
     padding-right: 5%;
-    padding-top: 40px;
+    padding-top: 4%;
   }
   
-  .title6 {
+  .AvanceTest-title6 {
     text-align: center;
-    margin-top: 20px;
-    font-size: 35px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
   }
   
-  .content6 {
+  .AvanceTest-content6 {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 80%; /* Adjust the maximum width as needed */
   }
   
-  .text6 {
+  .AvanceTest-text6 {
     width: calc(80% - 30px); /* Adjust the width of the text column */
     font-size: 21px; /* Increase the font size of the paragraph */
   }
   
-  .text6 p {
+  .AvanceTest-text6 p {
     margin-top: 0; /* Remove top margin for the paragraph */
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
   }
-  .text6 h3 {
+  .AvanceTest-text6 h3 {
     font-size: 21px; /* Adjust font size as needed */
     margin-top: 15px; /* Adjust margin-top as needed */
+    font-family: 'Open Sans', sans-serif;
   }
   
-  .content6 {
+  .AvanceTest-content6 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
   
-  .computer-list6 {
+  .AvanceTest-computer-list6 {
     list-style: none;
     padding: 0;
     margin-top: 20px; /* Adjust margin-top as needed */
     padding-left: 50px;
+    
   }
   
-  .computer-list6 li {
+  .AvanceTest-computer-list6 li {
     padding-left: 20px; /* Adjust padding as needed */
     position: relative;
     line-height: 1.5; /* Adjust line height as needed */
     font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
   }
   
-  .computer-list6 li:before {
+  .AvanceTest-computer-list6 li:before {
     content: '';
     width: 10px; /* Adjust the width of the circle */
     height: 10px; /* Adjust the height of the circle */
@@ -68,7 +75,7 @@
     transform: translateY(-50%);
   }
 
-  .image-container6 {
+  .AvanceTest-image-container6 {
     width: calc(50% - 10px); /* Adjust the width of the image column */
     display: flex;
     justify-content: flex-end;
@@ -76,7 +83,7 @@
     margin-bottom: 20px;
   }
   
-  .image-container6 img {
+  .AvanceTest-image-container6 img {
      /* Adjust the maximum width of the image */
     height: 350px;
     width: 500px; /* Set the image width to fill the container */
@@ -90,49 +97,49 @@
       padding-top: 20px;
     }
   
-    .title6 {
+    .AvanceTest-title6 {
       font-size: 28px;
     }
   
-    .content6 {
+    .AvanceTest-content6 {
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
   
-    .text6 {
+    .AvanceTest-text6 {
       width: 100%;
       font-size: 18px;
       margin: 20px 0;
     }
   
-    .image-container6 {
+    .AvanceTest-image-container6 {
       width: 100%;
       justify-content: center;
       margin-bottom: 20px;
     }
   
-    .image-container6 img {
+    .AvanceTest-image-container6 img {
       width: 80%;
       height: auto;
       margin-top: 20px;
     }
-    .AvanceTest-container6 .title6 {
+    .AvanceTest-container6 .AvanceTest-title6 {
         font-size: 20px; /* Example smaller font size for smaller screens */
         /* Adjust other title styles as needed for responsiveness */
       }
     
-      .AvanceTest-container6 .content6 .text6 p {
+      .AvanceTest-container6 .AvanceTest-content6 .AvanceTest-text6 p {
         font-size: 12px; /* Example smaller font size for paragraphs */
         /* Adjust other paragraph styles as needed for responsiveness */
       }
     
-      .AvanceTest-container6 .content6 .text6 h3 {
+      .AvanceTest-container6 .AvanceTest-content6 .AvanceTest-text6 h3 {
         font-size: 15px; /* Example smaller font size for headings */
         /* Adjust other heading styles as needed for responsiveness */
       }
     
-      .AvanceTest-container6 .content6 .text6 .computer-list6 li {
+      .AvanceTest-container6 .AvanceTest-content6 .AvanceTest-text6 .AvanceTest-computer-list6 li {
         font-size: 11px; /* Example smaller font size for list items */
         /* Adjust other list item styles as needed for responsiveness */
       }

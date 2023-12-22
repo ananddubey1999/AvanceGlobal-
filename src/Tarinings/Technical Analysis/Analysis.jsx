@@ -3,10 +3,10 @@ import './Analysis.css';
 
 function Analysis() {
   return (
-    <div className="insure-container4">
-      <h2 className="title4">Technical Analysis for Capital Markets</h2>
-      <div className="content4">
-        <div className="text">
+    <div className="Ana-container4">
+      <h2 className="Ana-title4">Technical Analysis for Capital Markets</h2>
+      <div className="Ana-content4">
+        <div className="Ana-text">
           <h3 className="section-title">Beginners Course for Investors and Traders (Intraday Trading & Stock.)</h3>
           <p>
           This course provides a brief knowledge of buying and selling of shares
@@ -29,7 +29,7 @@ function Analysis() {
           Multiple stocks are available in the markets for an investor.
           </p>
         </div>
-        <div className="image-container4">
+        <div className="Ana-image-container4">
           <img src="./Img/erp2.jpg" alt="Your Image" />
         </div>
       </div>

@@ -2,48 +2,112 @@
 
 /* Container for the mission section */
 .mission-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 10%;
-    margin-left: 10%;
-    padding: 40px; /* Adjust padding as needed */
-    padding-top: 6%;
-    padding-bottom: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+/* Styles for the content area */
+.mission-content {
+  padding-right: 0;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Mission title */
+.mission-title {
+  font-size: 40px;
+  margin-bottom: 8px;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+/* Mission details/paragraph */
+.mission-details {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  padding-right: 90px;
+}
+.mission-paragraph{
+  font-size: 21px;
+  line-height: 1.4;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+}
+/* Mission image */
+.mission-image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  box-shadow: 0px 4px 6px rgba(128, 128, 128, 0.5); /* Bottom shadow */
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .mission-container {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3%;
   }
-  
-  /* Styles for the content area */
+
   .mission-content {
     flex: 1;
-    padding-right: 20px; /* Spacing between content and image */
+    padding-right: 20px;
+    text-align: left;
   }
-  
-  /* Mission title */
+
   .mission-title {
     font-size: 40px;
-    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
   }
-  
-  /* Mission details/paragraph */
+
   .mission-details {
-    line-height: 1.6;
     font-size: 20px;
-    
+    text-align: justify;
   }
-  
-  /* Mission image */
-  .mission-image img {
-    position: relative;
-    width: 100%; /* Ensure the image fills the container */
-    max-width: 600px; /* Adjust maximum width as needed */
-    height: auto;
-    padding-right: 15%;
+  .mission-details p {
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
   }
+
   .mission-image img {
     width: 100%;
-    max-width: 100%;
+    max-width: 600px;
     height: auto;
-    box-shadow:
-      -4px 0px 6px rgba(128, 128, 128, 0.5), /* Left shadow */
-      0px 4px 6px rgba(128, 128, 128, 0.5); /* Bottom shadow */
+    padding-right: 15px;
   }
+}
+
+@media (max-width: 480px) {
+  .mission-title {
+    font-size: 28px;
+    margin-bottom: 6px;
+  }
+
+  .mission-details {
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .mission-details p {
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .mission-details {
+    font-size: 14px;
+    text-align: center; /* Updated: Align paragraph to the center */
+    font-family: 'Open Sans', sans-serif;
+  }
+}

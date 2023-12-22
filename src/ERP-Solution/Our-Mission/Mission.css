@@ -1,0 +1,183 @@
+/* Mission.css */
+
+/* Container for the mission section */
+.mission-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+ /* Example border for visualization */
+  }
+  
+  /* Left section styles */
+  .mission-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .mission-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+  }
+  
+  .mission-paragraph {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+  }
+  
+  .percentage-lines {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .percentage-line {
+    margin-bottom: 10px;
+  }
+  
+  .percentage-name {
+    color: #426fd0;
+    font-weight: bold;
+    font-size: 18px; /* Updated font size */
+    margin-bottom: 5px;
+  }
+  
+  /* Right section styles */
+  .mission-image {
+    flex: 1;
+  }
+  
+  .mission-image img {
+    width: 100%;
+    height: auto;
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove shadow effect */
+  }
+  .mission-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Mission.css */
+
+/* ... (Previous styles remain unchanged) */
+
+.percentage-lines {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .percentage-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .percentage-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .percentage-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .percentage-line-value {
+    height: 1px;
+    background-color: #00aaff; /* Adjust color as needed */
+  }
+  
+  .percentage-value {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .mission-container {
+      flex-direction: column;
+    }
+  
+    .mission-content,
+    .mission-image {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .mission-title {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .mission-paragraph {
+      font-size: 14px;
+    }
+  
+    .percentage-name {
+      font-size: 12px;
+    }
+  }
+  
+
+
+  /* Mission.css */
+
+/* ... (Previous styles remain unchanged) */
+
+.skill-bars {
+    margin-top: 30px;
+  }
+  
+  .skill-bar {
+    margin-bottom: 15px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #4e9bed ;
+  }
+  
+  .skill-bar-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .skill-progress {
+    height: 8px;
+    background-color: #4e9bed; /* Bar color */
+    border-radius: 5px;
+    animation: progress-animation 1.5s ease-out forwards; /* Animation properties */
+  }
+  
+  @keyframes progress-animation {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  
+  .skill-value {
+    margin-left: 10px;
+  }
+
+  .mission-image {
+    flex: 1;
+  }
+  
+  .mission-image img {
+    width: 100%;
+    height: auto;
+  }
+  

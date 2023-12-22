@@ -6,13 +6,15 @@
     align-items: center;
     padding-left: 3%;
     padding-right: 5%;
-    padding-top: 40px;
+    padding-top: 4%;
   }
   
   .title6 {
     text-align: center;
-    margin-top: 20px;
-    font-size: 35px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
   }
   
   .content6 {
@@ -29,10 +31,15 @@
   
   .text6 p {
     margin-top: 0; /* Remove top margin for the paragraph */
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    padding-right: 15px;
+
   }
   .text6 h3 {
     font-size: 21px; /* Adjust font size as needed */
     margin-top: 15px; /* Adjust margin-top as needed */
+    font-family: 'Open Sans', sans-serif;
   }
   
   .content6 {
@@ -54,6 +61,7 @@
     position: relative;
     line-height: 1.5; /* Adjust line height as needed */
     font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .computer-list6 li:before {
@@ -92,6 +100,7 @@
   
     .title6 {
       font-size: 28px;
+      font-family: 'Open Sans', sans-serif;
     }
   
     .content6 {
@@ -104,6 +113,7 @@
       width: 100%;
       font-size: 18px;
       margin: 20px 0;
+      font-family: 'Open Sans', sans-serif;
     }
   
     .image-container6 {

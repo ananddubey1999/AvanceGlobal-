@@ -14,7 +14,7 @@ function Home() {
           provider, delivering unparalleled solutions for a digital world.”</p>
         <div className="buttons">
           {/* Link to the LearnMore page */}
-          <Link to="/learn-more">
+          <Link to="/DiscoverAvance">
             <button className="custom-button1">Read More</button>
           </Link>
           {/* Link to the Contact page */}

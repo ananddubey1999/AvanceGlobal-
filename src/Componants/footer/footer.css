@@ -22,25 +22,25 @@
   
   .firstPart11 {
     /* Styles for the first part */
-    margin-bottom: 6%;
+    margin-bottom: 0%;
   }
   
   .secondPart11 {
     /* Styles for the second part */
-    margin-bottom: 28%;
+    margin-bottom: 0%;
     
   }
   
   .thirdPart11 {
     /* Styles for the third part */
-    margin-bottom: 40%;
+    margin-bottom: 0%;
   }
   
   .fourthPart11 {
     /* Styles for the fourth part */
     display: flex;
     flex-direction: column;
-    margin-bottom: 15%;
+    margin-bottom: 1%;
   }
   
   .logo11 {
@@ -85,6 +85,7 @@
   
   .para11{
     font-size: 18px;
+    text-align: justify;
   }
 
   .OurService11{
@@ -189,6 +190,7 @@
   .footerPart11 {
     width: 100%;
     margin-bottom: 20px;
+    text-align: justify;
   }
 }
 
@@ -196,6 +198,7 @@
 @media screen and (max-width: 417px) {
   .footerPart11 {
     width: 100%;
+    text-align: justify;
   }
 }
 
@@ -233,3 +236,4 @@
     width: calc(100% - 20px); /* Adjust width to fit container */
   }
 }
+

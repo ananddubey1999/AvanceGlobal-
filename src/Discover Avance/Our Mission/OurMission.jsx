@@ -5,7 +5,7 @@ function OurMission() {
   return (
     <div className="mission-container">
       <div className="mission-content">
-        <h2 className="mission-title">Our Mission is to Make Your Business Better Through Technology.</h2>
+        <h2 className="mission-title"><span style={{ color: '#5da8f8' }}>Our Mission </span> is to Make Your Business Better Through Technology.</h2>
         <div className="mission-details">
           <p className="mission-paragraph">
           We believe in delivering simple, secure, and cost-effective solutions, Our Team consistently strives for delivering smart designs, fresh ideas, CRM, ERPs, custom applications development and support and visual concepts of an exceptional standard for every project.<br/>

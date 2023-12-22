@@ -4,13 +4,16 @@
     padding-top: 6%;
   }
   .Service-h1{
-    font-size: 35px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
   }
   
   .h4 {
     text-align: center;
     margin-bottom: 30px;
     font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
   }
   .service-container {
     display: flex;
@@ -25,7 +28,7 @@
   .service-item {
     width: calc(25% - 1px); /* Adjust width and include space */
     width: 27%;
-    height: 400px;
+    height: 450px;
     margin-bottom: 10px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -44,13 +47,17 @@
   
   .service-item h2 {
     margin-top: 0;
-    font-size: 25px;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
   }
   
   .service-item p {
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 25px;
     font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
   }
   
   .read-more {
@@ -59,6 +66,7 @@
     color: blue;
     text-decoration: underline;
     cursor: pointer;
+    margin-top: 50px;
   }
   
   .more-info {
@@ -70,7 +78,7 @@
   }
   
   .service-item:hover {
-    background-color: #007bff;
+    background-color: #6610f2;
     color: white;
     transform: translateY(-5px);
   }

@@ -11,7 +11,7 @@ import Product from './Pages/Product';
 import AvanceSolution from './Pages/AvanceSolution';
 import Trainings from './Pages/Trainings';
 import DiscoverAvance from './Pages/DiscoverAvance';
-
+import ERP_Solution from './Pages/ERP_Solution';
 function App() {
   return (
     <Router>
@@ -26,6 +26,7 @@ function App() {
           <Route path="/AvanceSolution" element={<AvanceSolution/>} />
           <Route path="/Trainings" element={<Trainings/>} />
           <Route path="/DiscoverAvance" element={<DiscoverAvance/>} />
+          <Route path="/ERPSolution" element={<ERP_Solution/>} />
           {/* Define more routes as needed */}
         </Routes>
       {/* </div> */}

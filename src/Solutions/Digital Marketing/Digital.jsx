@@ -2,10 +2,10 @@ import React from 'react'
 import './Digital.css'; 
 function Digital() {
     return (
-        <div className="Invest-container5">
-          <h2 className="title5">Digital Marketing</h2>
-          <div className="content5">
-            <div className="text5">
+        <div className="Digital-container5">
+          <h2 className="Digital-title5">Digital Marketing</h2>
+          <div className="Digital-content5">
+            <div className="Digital-text5">
               <p>
               AvanceEdu Pro has been implimented many acadmic institution eg. Universities, Collages & Schools. This Product is running successfully at clients.<br/>
 
@@ -14,7 +14,7 @@ function Digital() {
               AvanceEdu Pro a platform to connect intra-departments and improve core processes, hence institution can focus on acadmic improvement processes.
               </p>
             </div>
-            <div className="image-container5">
+            <div className="Digital-image-container5">
               <img src="./Img/erp2.jpg" alt="Your Image" />
             </div>
           </div>

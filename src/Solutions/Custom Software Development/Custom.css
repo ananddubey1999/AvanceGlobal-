@@ -1,37 +1,50 @@
 /* Invest.css */
 
-.Invest-container5 {
+.Custom-container5 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 3%;
     padding-right: 5%;
-    padding-top: 40px;
+    padding-top: 4%;
   }
   
-  .title5 {
+  .Custom-title5 {
     text-align: center;
-    margin-top: 20px;
-    font-size: 35px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
   }
   
-  .content5 {
+  .Custom-content5 {
     display: flex;
     flex-direction: row-reverse; /* Adjust to reverse the order */
     align-items: center;
     max-width: 80%; /* Adjust the maximum width as needed */
   }
   
-  .text5 {
+  .Custom-text5 {
     width: calc(80% - 30px); /* Adjust the width of the text column */
     font-size: 21px; /* Increase the font size of the paragraph */
+    
   }
   
-  .text5 p {
+  .Custom-text5 p {
     margin-top: 0; /* Remove top margin for the paragraph */
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+  }
+  .Custom-text5 h3 {
+    padding-bottom: 2px; /* Remove top margin for the paragraph */
+    font-family: 'Open Sans', sans-serif;
+  }
+  .Custom-circle-icon{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
   }
   
-  .image-container5 {
+  .Custom-image-container5 {
     width: calc(50% - 10px); /* Adjust the width of the image column */
     display: flex;
     justify-content: flex-end;
@@ -39,47 +52,60 @@
     margin-bottom: 20px;
   }
   
-  .image-container5 img {
+  .Custom-image-container5 img {
     height: 350px;
     width: 600px; /* Set the image width to fill the container */
     margin-top: 38px;
-    padding-right: 50px;
+    padding-right: 30px;
   }
   
   @media (max-width: 768px) {
-    .Invest-container5 {
+    .Custom-container5 {
         padding-left: 5%;
         padding-top: 20px;
     }
   
-    .title5 {
+    .Custom-title5 {
       font-size: 28px;
     }
   
-    .content5 {
+    .Custom-content5 {
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
   
-    .text5 {
+    .Custom-text5 {
       width: 100%;
       font-size: 12px;
       margin: 20px 0;
     }
   
-    .image-container5 {
+    .Custom-image-container5 {
       width: 100%;
       justify-content: center;
       margin-bottom: 20px;
     }
   
-    .image-container5 img {
+    .Custom-image-container5 img {
         width: 100%;
         height: auto;
         margin-top: 20px;
         margin-left: 10%;
     }
+      
+  .Custom-text5 p {
+    margin-top: 0; /* Remove top margin for the paragraph */
+    font-family: 'Open Sans', sans-serif;
+  }
+  .Custom-text5 h3 {
+    padding-bottom: 2px; /* Remove top margin for the paragraph */
+    font-family: 'Open Sans', sans-serif;
+  }
+  .circle-icon{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+  }
   }
   /* Your existing styles... */
 
@@ -93,13 +119,13 @@
     margin-right: 8px; /* Adjust margin between the circle and list item text */
   }
   
-  .computer-list5 {
+  .Custom-computer-list5 {
     list-style: none;
     padding-left: 0;
     font-size: 16px;
   }
   
-  .computer-list5 li {
+  .Custom-computer-list5 li {
     margin-bottom: 10px;
   }
   
@@ -107,16 +133,29 @@
   @media screen and (max-width: 767px) {
     /* Adjustments for smaller screens */
   
-    .title5 {
+    .Custom-title5 {
       font-size: 24px; /* Adjust title font size */
     }
   
-    .text5 p {
+    .Custom-text5 p {
       font-size: 14px; /* Adjust paragraph font size */
     }
   
-    .computer-list5 {
+    .Custom-computer-list5 {
       font-size: 14px; /* Adjust list item font size */
     }
+      
+  .Custom-text5 p {
+    margin-top: 0; /* Remove top margin for the paragraph */
+    font-family: 'Open Sans', sans-serif;
+  }
+  .Custom-text5 h3 {
+    padding-bottom: 2px; /* Remove top margin for the paragraph */
+    font-family: 'Open Sans', sans-serif;
+  }
+  .circle-icon{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+  }
   }
   
