@@ -4,7 +4,7 @@
   align-items: center;
   height: 420px; /* Adjust height as needed */
   margin-top: 2%;
-  background-image: url('https://media.istockphoto.com/vectors/technology-background-vector-vector-id1093608482?k=6&m=1093608482&s=170667a&w=0&h=mcSXej74zsuRHjdLR7nMn76AviVaVHy3zjjwFmGE6Vg='); /* Replace with your background image path */
+  background-image: url('../../../public/Img/banner-bg.jpg'); /* Replace with your background image path */
   background-size: cover;
   background-position: center;
   

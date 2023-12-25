@@ -16,6 +16,7 @@
     padding: 20px; /* Add padding for content spacing */
     width: auto;
     height: inherit;
+    background-image: url('../../../public/Img/home-bg.jpg'); 
   }
   
   .content {

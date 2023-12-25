@@ -1,6 +1,7 @@
 // Loading.js
+
 import React from 'react';
-import './Loading.css'; // You can create a separate CSS file for Loading component styles
+import './Loading.css'; // Import your CSS file for Loading component styles
 
 const Loading = () => {
   return (

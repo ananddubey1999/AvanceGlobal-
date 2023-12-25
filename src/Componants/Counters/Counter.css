@@ -8,7 +8,7 @@
     height: 420px;
     margin-left: 1%;
     margin-right: 1%;
-    background-image: url('https://media.istockphoto.com/vectors/technology-background-vector-vector-id1093608482?k=6&m=1093608482&s=170667a&w=0&h=mcSXej74zsuRHjdLR7nMn76AviVaVHy3zjjwFmGE6Vg='); /* Add the path to your image */
+    background-image: url('../../../public/Img/banner-bg.jpg'); /* Add the path to your image */
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Fixed background */
@@ -73,6 +73,19 @@
   }
 }
 @media (max-width: 768px) {
+  .Countercontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .counter-content {
+    width: 45%; /* Adjust the width for responsiveness */
+    margin: 10px;
+    text-align: center;
+  }
+}
+@media (max-width: 455px) {
   .Countercontainer {
     display: flex;
     flex-wrap: wrap;

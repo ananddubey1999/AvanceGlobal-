@@ -51,7 +51,7 @@
     height: 350px;
     width: 600px; /* Set the image width to fill the container */
     margin-top: 38px;
-    padding-right: 70px;
+    padding-right: 30px;
   }
   
   @media (max-width: 768px) {
