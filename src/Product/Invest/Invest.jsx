@@ -3,7 +3,10 @@ import './Invest.css';
 function Invest() {
     return (
         <div className="Invest-container5">
-          <h2 className="title5">Invest</h2>
+       <h2 className="title4">
+        <span>Invest</span>
+        <span className="italic-red">IT</span>
+      </h2>
           <div className="content5">
             <div className="text5">
               <p>

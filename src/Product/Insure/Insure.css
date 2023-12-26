@@ -102,3 +102,30 @@
       }
   }
   
+
+  /* Insure.css */
+
+/* Other styles for the Insure component */
+/* ... */
+
+/* Styling for the modified InsureITPro text */
+.title4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.italic-red {
+  font-style: italic;
+  color: red;
+  top: -10px;
+}
+
+.white-background {
+  color: white;
+  background-color: black;
+  padding:  5px; /* Adjust padding as needed */
+  border-radius: 20%;
+  font-size: 35px;
+ margin-left: 5px;
+}

@@ -4,7 +4,10 @@ import './AvanceTest.css';
 function AvanceTest() {
   return (
     <div className="AvanceTest-container6">
-      <h2 className="AvanceTest-title6">AvanceTest</h2>
+       <h2 className="title4">
+        <span>Avance</span>
+        <span className="italic-red">Test</span>
+      </h2>
       <div className="AvanceTest-content6">
         <div className="AvanceTest-text6">
           <p>

@@ -1,283 +1,92 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
-
-* {
-
-  box-sizing: border-box;
-  font-family: "Jost", sans-serif;
+/* Navbar.css */
+.larger-about {
+  font-size: 1.3em; /* Adjust the font size as needed */
 }
 
-html {
-  font-size: 15px;
+.logoStyle {
+  width: 230px; /* Change the width as needed */
+  height: 70px; /* Keep aspect ratio */
+  /* Add any other styles or adjustments here */
+}
+/* Navbar.css */
+
+/* Dropdown items */
+.dropdown-menu {
+  opacity: 0; /* Initially, hide the dropdown items */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Add transition effect */
+  pointer-events: none; /* Disable pointer events to hide dropdown items */
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%; /* Position dropdown below the navbar */
+  transform: translateY(-10px); /* Shift dropdown up to hide initially */
+  border-radius: 5px; /* Rounded corners */
 }
 
-a {
-  text-decoration: none;
+/* Show dropdown items on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  opacity: 1; /* Show dropdown items on hover */
+  pointer-events: auto; /* Enable pointer events */
+  transform: translateY(0); /* Show dropdown with slide-down animation */
 }
 
-li {
-  list-style: none;
-}
-
-.logo img{
-  height: 75px;
-  margin-left: 3%;
-}
-
-.GetFree{
-  font-size: 20px;
-  margin-left: 30%;
-  margin-top: 3%;
-  color: #ffffff;
-  cursor: pointer;
-  border: 2px solid white;
-  background-color: #5da8f8;
-  padding: 12px 22px; /* Adjust padding for better appearance */
-  border-radius: 30px; 
-  transition: background-color 0.3s ease, transform 0.3s ease; 
-}
-.GetFree:hover {
-  background-color: #346ef6; /* Button color on hover */
-}
-/* navbar style start  */
-
-.main-nav {
-  width: 100%;
-  height: 6rem;
-  display: grid;
-  grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-
-.logo {
-  display: grid;
-  /* background-color: #3b5998; */
-  grid-column: 2/3;
-  justify-content: start;
-  align-items: center;
-}
-
-.menu-link {
-  grid-column: 3/4;
-}
-
-.menu-link ul {
-  height: 5rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-
-.ul {
-  height: 5rem;
-  display: grid;
-  grid-template-columns: 3fr repeat(3, 1fr);
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.social-media ul li {
-  text-align: right;
-}
-
-.social-media ul li:first-child {
-  grid-column: 2/3;
-}
-
-/* ----------- Grid part ends ----------------- */
-.menu-link ul li {
-  font-size: 1.8rem;
-}
-
-.menu-link ul li a {
-  text-transform: capitalize;
-  color: rgba(0, 0, 3, 0.8);
-  transition: 0.5s;
-  text-decoration: none;
-}
-.menu-link ul li:hover > a {
-  transform-origin: left;
-  color: rgba(0, 0, 3, 1);
-  text-decoration: underline;
-  transition: 0.5s;
-  text-decoration: underline;
-}
-.hamburger-menu {
+/* Add more specific styling as needed for your dropdown items */
+.dropdown-item {
   display: block;
-  font-size: 0px;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+  border-bottom: 1px solid #ddd; /* Separator between items */
 }
 
-/* hero section   */
-
-.hero-section {
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+/* Hover effect for dropdown items */
+.dropdown-item:hover {
+  background-color: #f8f9fa; /* Change background color on hover */
+  color: #007bff; /* Change text color on hover */
 }
 
-.hero-section p {
-  font-size: 3rem;
-  text-transform: capitalize;
-}
 
-.hero-section h1 {
-  font-size: 5rem;
-  text-transform: uppercase;
-  text-align: center;
-}
+/* Navbar.css */
 
-/* responsive css style  */
-@media (max-width: 1080px) {
-  .main-nav {
-    height: 8rem;
-    grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+/* For larger screens */
+@media screen and (min-width: 992px) {
+  .navbar-collapse {
+    display: flex !important;
+    justify-content: flex-end;
   }
-
-  .logo,
-  .menu-link ul,
-  .social-media ul {
-    height: 8rem;
-  }
-}
-/* responsive css style  */
-@media (max-width: 998px) {
-  .main-nav {
-    height: 7rem;
-    grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
-  }
-
-  .menu-link {
+  .navbar-toggler {
     display: none;
   }
-
-  .GetFree{
-    display: none;
+  .navbar-brand {
+    margin-right: auto;
   }
-
-  .logo,
-  .social-media ul {
-    height: 7rem;
+  .larger-about {
+    margin-left: 20px;
   }
+}
 
-  .mobile-menu-link {
-    grid-column: 2/4;
-    position: relative;
-    z-index: 99;
-  }
-
-  .mobile-menu-link {
-    background-color: white;
-    height: 20rem;
-    display: grid;
-    grid-column: 2/5;
-    align-items: center;
-    padding-left: 3rem;
-    transition: all 2s linear;
-    transform-origin: top;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  }
-
-  .mobile-menu-link ul {
-    height: 20rem;
-    display: flex;
-    justify-content: space-around;
+/* For smaller screens (hamburger menu) */
+@media screen and (max-width: 991px) {
+  .navbar-nav {
     flex-direction: column;
-    align-items: start;
+    text-align: center;
+    justify-content: space-between;
   }
-
-  .mobile-menu-link ul li:first-child {
-    transition-delay: 0.2s;
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
   }
-
-  .social-media {
-    grid-row: 1/2;
-    grid-column: 3/5;
-    justify-items: end;
-    align-items: center;
-    transition: all 2s linear;
+  .navbar-brand {
+    /* margin-right: 0 !important; */
+    /* position: initial; */
   }
-
-  .social-media .social-media-desktop {
-    height: 0;
-    display: none;
-  }
-
-  .social-media {
-    height: 7rem;
-    display: flex;
-    justify-self: end;
-    align-items: center;
-  }
-
-  .hamburger-menu {
+  .navbar-toggler {
     display: block;
-    font-size: 2.5rem;
+    margin-left: auto;
+    margin-right: 20px;
   }
-}
-
-@media (max-width: 798px) {
-  .main-nav {
-    height: 6rem;
-    grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
-  }
-
-  .GetFree{
-    display: none;
-  }
-
-  .logo,
-  .social-media ul {
-    height: 6rem;
-  }
-
-  .social-media {
-    height: 6rem;
-    display: flex;
-    justify-self: end;
-    align-items: center;
-  }
-
-   .hamburger-menu {
-    display: block;
-    font-size: 2.5rem;
-  }
-}
-
-@media (max-width: 520px) {
-  .main-nav {
-    height: 6rem;
-    grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
-  }
-.GetFree{
-  display: none;
-}
-
-  .logo,
-  .social-media ul {
-    height: 6rem;
-  }
-
-  .logo h2 {
-    font-size: 2rem;
-  }
-
-  .social-media {
-    height: 6rem;
-    display: flex;
-    justify-self: end;
-    align-items: center;
-  }
-
-   .hamburger-menu {
-    display: block;
-    font-size: 2.5rem;
-  }
-
-  .hero-section h1 {
-    font-size: 3.8rem;
+  .navbar-toggler-icon{
+     
   }
 }

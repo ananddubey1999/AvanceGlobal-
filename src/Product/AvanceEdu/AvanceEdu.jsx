@@ -3,7 +3,11 @@ import './AvanceEdu.css';
 function AvanceEdu() {
     return (
         <div className="AvanceEdu-container7">
-          <h2 className="title7">AvanceEdu</h2>
+       <h2 className="title4">
+        <span>Avance</span>
+        <span className="italic-red">Edu</span>
+        <span className="white-background">Pro</span>
+      </h2>
           <div className="content7">
             <div className="text7">
               <p>

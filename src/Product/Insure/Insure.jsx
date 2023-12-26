@@ -6,7 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Insure() {
   return (
     <div className="insure-container4">
-      <h2 className="title4">Insure</h2>
+       <h2 className="title4">
+        <span>Insure</span>
+        <span className="italic-red">IT</span>
+        <span className="white-background">Pro</span>
+      </h2>
       <div className="content4">
         <div className="text">
           <p>
