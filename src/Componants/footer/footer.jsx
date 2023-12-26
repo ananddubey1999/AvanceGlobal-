@@ -5,19 +5,19 @@ import { faFacebookF, faTwitter, faInstagram, faLinkedin } from '@fortawesome/fr
 
 function Footer() {
   const services = [
-    { text: 'Systems Integrator', link: '/systems-integrator' },
-    { text: 'Custom Software Development', link: '/custom-software' },
-    { text: 'PMO Outsourcing', link: '/pmo-outsourcing' },
-    { text: 'Call Center Setup & Operations', link: '/call-center-setup' },
-    { text: 'Customized ERP Solutions', link: '/erp-solutions' },
-    { text: 'Digital Marketing', link: '/digital-marketing' },
+    { text: 'Systems Integrator', link: '/AvanceSolution' },
+    { text: 'Custom Software Development', link: '/AvanceSolution' },
+    { text: 'PMO Outsourcing', link: '/AvanceSolution' },
+    { text: 'Call Center Setup & Operations', link: '/AvanceSolution' },
+    { text: 'Customized ERP Solutions', link: '/ERPSolution' },
+    { text: 'Digital Marketing', link: '/AvanceSolution' },
   ];
 
   const quickLinks = [
-    { text: 'About Us', link: '/about-us' },
-    { text: 'Case Study', link: '/case-study' },
-    { text: 'Contact Us', link: '/contact-us' },
-    { text: 'Blogs', link: '/blogs' },
+    { text: 'About Us', link: '/DiscoverAvance' },
+    { text: 'Case Study', link: '/Infrastructure' },
+    { text: 'Contact Us', link: '/contact' },
+    { text: 'Blogs', link: '/ERPSolution' },
   ];
 
   const contactInfo = [

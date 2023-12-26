@@ -10,10 +10,20 @@
      width: 100%;
     height: 100%; 
      background-size: cover;
-    background-position: top; /* Fix the background at the top of the window */
+    background-position: center; /* Fix the background at the top of the window */
     position: relative; 
   }
+  .ERP-background-image3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 50, 50, 0.5); /* Adjust opacity by changing the alpha value */
+  }
   
+
   .ERP-title3 {
     position: absolute;
     top: 50%;

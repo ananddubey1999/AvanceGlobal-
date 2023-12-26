@@ -139,6 +139,7 @@
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
+    padding-right: 70px;
   }
   
   .contactList11 li {
@@ -151,8 +152,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 400px; /* Adjust the width as needed */
-   
+    width: 100px; /* Adjust the width as needed */
     
   }
   

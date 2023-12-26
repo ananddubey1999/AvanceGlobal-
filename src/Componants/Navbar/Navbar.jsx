@@ -6,7 +6,7 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light" id='Nav1'>
                 <div className="container py-2">
                 <Link className="navbar-brand" to="/">
           <img src={LogoImage} alt="Waleedcodes Logo" className="logoStyle"/>
@@ -21,31 +21,31 @@ const Navbar = () => {
                                 <Link  className="nav-link dropdown-toggle larger-about" to="/Product" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Product</Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a className="dropdown-item" href="/Product">Products</a></li>
-                                    <li><a className="dropdown-item" href="/">InsureITPro</a></li>
-                                    <li><a className="dropdown-item" href="/">InvestAI</a></li>
-                                    <li><a className="dropdown-item" href="/">AvanceTest</a></li>
-                                    <li><a className="dropdown-item" href="/">AvanceEdu Pro</a></li>
+                                    <li><a className="dropdown-item" href="/Product">InsureITPro</a></li>
+                                    <li><a className="dropdown-item" href="/Product">InvestAI</a></li>
+                                    <li><a className="dropdown-item" href="/Product">AvanceTest</a></li>
+                                    <li><a className="dropdown-item" href="/Product">AvanceEdu Pro</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link  className="nav-link dropdown-toggle larger-about" to="/AvanceSolution" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solution</Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a className="dropdown-item" href="/AvanceSolution">Solutions</a></li>
-                                    <li><a className="dropdown-item" href="/">Systems Integrator</a></li>
-                                    <li><a className="dropdown-item" href="/">Custom Software Development</a></li>
-                                    <li><a className="dropdown-item" href="/">PMO Outsourcing</a></li>
-                                    <li><a className="dropdown-item" href="/">Call Center Setup & Operations</a></li>
-                                    <li><a className="dropdown-item" href="/">Customized ERP Solutions</a></li>
-                                    <li><a className="dropdown-item" href="/">Digital Marketing</a></li>
+                                    <li><a className="dropdown-item" href="/AvanceSolution">Systems Integrator</a></li>
+                                    <li><a className="dropdown-item" href="/ERPSolution">Custom Software Development</a></li>
+                                    <li><a className="dropdown-item" href="/AvanceSolution">PMO Outsourcing</a></li>
+                                    <li><a className="dropdown-item" href="/AvanceSolution">Call Center Setup & Operations</a></li>
+                                    <li><a className="dropdown-item" href="/ERPSolution">Customized ERP Solutions</a></li>
+                                    <li><a className="dropdown-item" href="/AvanceSolution">Digital Marketing</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link  className="nav-link dropdown-toggle larger-about" to="/Trainings" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Training</Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a className="dropdown-item" href="/Trainings">Trainings</a></li>
-                                    <li><a className="dropdown-item" href="/">On Demand IT/Software Trainings</a></li>
-                                    <li><a className="dropdown-item" href="/">Compliance at Workplace</a></li>
-                                    <li><a className="dropdown-item" href="/">Technical Analysis for Capital Markets</a></li>
+                                    <li><a className="dropdown-item" href="/Trainings">On Demand IT/Software Trainings</a></li>
+                                    <li><a className="dropdown-item" href="/Trainings">Compliance at Workplace</a></li>
+                                    <li><a className="dropdown-item" href="/Trainings">Technical Analysis for Capital Markets</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
