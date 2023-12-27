@@ -3,7 +3,7 @@ import './TrustedClients.css'; // Import your CSS file for styles
 
 function TrustedClients() {
   return (
-    <div className='Container1'>
+    <div className='Container13'>
         <h1>Our Trusted Clients</h1>
       <div className='Boxes'>
         <div className='box1'>

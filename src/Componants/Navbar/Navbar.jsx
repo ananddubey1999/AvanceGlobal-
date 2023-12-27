@@ -31,7 +31,7 @@ const Navbar = () => {
                                 <Link  className="nav-link dropdown-toggle larger-about" to="/AvanceSolution" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solution</Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a className="dropdown-item" href="/AvanceSolution">Solutions</a></li>
-                                    <li><a className="dropdown-item" href="/AvanceSolution">Systems Integrator</a></li>
+                                    <li><a className="dropdown-item" href="/Infrastructure">Infrastructure</a></li>
                                     <li><a className="dropdown-item" href="/ERPSolution">Custom Software Development</a></li>
                                     <li><a className="dropdown-item" href="/AvanceSolution">PMO Outsourcing</a></li>
                                     <li><a className="dropdown-item" href="/AvanceSolution">Call Center Setup & Operations</a></li>

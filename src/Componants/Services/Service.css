@@ -95,7 +95,20 @@
 
 /* Media query for responsiveness */
 @media screen and (max-width: 767px) {
-    .service-container {
+  .Service-h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+  }   
+  .h4 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .service-container {
       margin-left: 5%; /* Adjust margins for smaller screens */
       margin-right: 5%;
     }
@@ -118,12 +131,14 @@
   
     .service-item h2 {
       margin-top: 10px; /* Adjust margin top for smaller screens */
-      font-size: 18px; /* Adjust font size for smaller screens */
+      font-family: 'Open Sans', sans-serif;
+      font-size: 17px; /* Adjust font size for smaller screens */
     }
   
     .service-item p {
       margin-bottom: 10px; /* Adjust margin bottom for smaller screens */
-      font-size: 16px; /* Adjust font size for smaller screens */
+      font-family: 'Open Sans', sans-serif;
+      font-size: 15px; /* Adjust font size for smaller screens */
     }
   
     .read-more {

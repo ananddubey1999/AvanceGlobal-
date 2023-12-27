@@ -34,7 +34,7 @@
   font-weight: bolder;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  z-index: 1; /* Ensure the title is on top of the overlay */
+ /* Ensure the title is on top of the overlay */
 }
 
 /* Responsive styles */

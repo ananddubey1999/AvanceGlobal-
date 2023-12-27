@@ -60,6 +60,12 @@
   
     .frame {
       width: calc(50% - 20px);
+      height: 350px;
+    }
+    .title {
+      margin-bottom: 20px;
+      font-size: 30px;
+      font-weight: 600;
     }
   }
   
@@ -70,7 +76,14 @@
     }
   
     .frame {
-      width: calc(100% - 20px);
+      width: calc(90% - 30px);
     }
+    .frame p {
+    line-height: 1.5;
+    transition: color 0.3s ease; /* Adding transition effect */
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
   }
   
