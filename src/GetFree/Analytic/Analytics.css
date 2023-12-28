@@ -1,0 +1,117 @@
+/* Analytics.css */
+
+/* Common styles for mobile and larger screens */
+.Analytics-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    margin-top: 4%;
+    margin-bottom: 3%;
+  }
+  
+  .Analytics-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%; /* Adjust as needed */
+    border: 1px solid #ccc;
+    padding: 15px;
+    height: 330px;
+    background-color: #dddddd;
+  }
+  
+  .Analytics-left,
+  .Analytics-right {
+    width: 48%;
+  }
+  
+  .Analytics-left {
+    text-align: left;
+    padding-right: 20px; /* Add spacing between left and right sections */
+  }
+  
+  .Analytics-right {
+    text-align: center;
+    padding-left: 20px; /* Add spacing between left and right sections */
+  }
+  
+  .Analytics-left h2,
+  .Analytics-right h2 {
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;
+  }
+  
+  .Analytics-right h2 {
+    font-size: 25px;
+    padding-bottom: 35px;
+  }
+  
+  .Analytics-left p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Additional styles for button */
+  .Analytics-right button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    text-align: center;
+    width: 60%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Responsive styles for smaller screens (mobile) */
+  @media (max-width: 768px) {
+    .Analytics-wrapper {
+      height: auto;
+      margin-top: 10%;
+    }
+  
+    .Analytics-container {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .Analytics-left,
+    .Analytics-right {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .Analytics-left h2,
+    .Analytics-right h2 {
+      font-size: 20px;
+      padding-bottom: 15px;
+    }
+  
+    .Analytics-right h2 {
+      font-size: 22px;
+      padding-bottom: 15px;
+    }
+  
+    .Analytics-right {
+        text-align: left;
+   /* Add spacing between left and right sections */
+      }
+      
+    .Analytics-left p {
+      font-size: 14px;
+    }
+  
+    .Analytics-right button {
+      width: 70%;
+      height: 45px;
+      font-size: 11px;
+    }
+  }
+  

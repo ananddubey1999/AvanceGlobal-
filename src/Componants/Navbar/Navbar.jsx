@@ -54,7 +54,7 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className="nav-link larger-about" to="/contact">Contact</Link>
                             </li>
-                            <div className="mx-3">
+                            <Link className="nav-link larger-about" to="/GetFreeQuote" >
                             <button
                                type="button"
                                className="btn1 mx-2"
@@ -73,7 +73,7 @@ const Navbar = () => {
                               >
                                Get Free Quotes
                             </button>
-                            </div>
+                            </Link>
 
                         </ul>
                     </div>

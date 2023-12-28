@@ -101,12 +101,14 @@
       margin-top: 10px; /* Adjust margin top for smaller screens */
       font-size: 17px; /* Adjust font size for smaller screens */
       font-family: 'Open Sans', sans-serif;
+
     }
   
     .product-item p {
       margin-bottom: 10px; /* Adjust margin bottom for smaller screens */
       font-size: 15px; /* Adjust font size for smaller screens */
       font-family: 'Open Sans', sans-serif;
+      text-align: center;
     }
   
     .read-more {
