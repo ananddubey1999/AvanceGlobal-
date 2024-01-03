@@ -108,7 +108,7 @@
       margin-bottom: 10px; /* Adjust margin bottom for smaller screens */
       font-size: 15px; /* Adjust font size for smaller screens */
       font-family: 'Open Sans', sans-serif;
-      text-align: center;
+      text-align:justify;
     }
   
     .read-more {

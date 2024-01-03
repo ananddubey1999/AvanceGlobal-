@@ -91,4 +91,43 @@
   }
 }
 
+.textEffect{text-decoration: none;
+  position: relative;
+color: rgb(11, 11, 11);
+padding: 20px;
+font-size: 1.3em;
+font-family: roboto;}
 
+.textEffect::after{
+
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+  height: 3px;
+  width: 0;
+  background-color: #e67e22;
+}
+
+.textEffect:hover::after{
+
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+  height: 3px;
+  width: 90%;
+  background-color: #e67e22;
+  transition: 0.4s ease-in;
+}
+
+.active::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+  height: 3px;
+  width: 90%;
+  background-color: #e67e22;
+  transition: 0.4s ease-in;
+}

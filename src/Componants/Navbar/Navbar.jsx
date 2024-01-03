@@ -20,7 +20,7 @@ const Navbar = () => {
                             <li className="nav-item dropdown">
                                 <Link  className="nav-link dropdown-toggle larger-about" to="/Product" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Product</Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="/Product">Products</a></li>
+                                    <li><Link className="dropdown-item" to="/Product">Products</Link></li>
                                     <li><a className="dropdown-item" href="/Product">InsureITPro</a></li>
                                     <li><a className="dropdown-item" href="/Product">InvestAI</a></li>
                                     <li><a className="dropdown-item" href="/Product">AvanceTest</a></li>
@@ -30,7 +30,7 @@ const Navbar = () => {
                             <li className="nav-item dropdown">
                                 <Link  className="nav-link dropdown-toggle larger-about" to="/AvanceSolution" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solution</Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="/AvanceSolution">Solutions</a></li>
+                                    <li><Link className="dropdown-item" to="/AvanceSolution">Solutions</Link></li>
                                     <li><a className="dropdown-item" href="/Infrastructure">Infrastructure</a></li>
                                     <li><a className="dropdown-item" href="/ERPSolution">Custom Software Development</a></li>
                                     <li><a className="dropdown-item" href="/AvanceSolution">PMO Outsourcing</a></li>
@@ -42,17 +42,17 @@ const Navbar = () => {
                             <li className="nav-item dropdown">
                                 <Link  className="nav-link dropdown-toggle larger-about" to="/Trainings" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Training</Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="/Trainings">Trainings</a></li>
+                                    <li><Link className="dropdown-item" to="/Trainings">Trainings</Link></li>
                                     <li><a className="dropdown-item" href="/Trainings">On Demand IT/Software Trainings</a></li>
                                     <li><a className="dropdown-item" href="/Trainings">Compliance at Workplace</a></li>
                                     <li><a className="dropdown-item" href="/Trainings">Technical Analysis for Capital Markets</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link larger-about" to="/DiscoverAvance">Discover Avance</Link>
+                                <Link className="nav-link larger-about textEffect" to="/DiscoverAvance">Discover Avance</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link larger-about" to="/contact">Contact</Link>
+                                <Link className="nav-link larger-about textEffect" to="/Porfolio">Porfolio</Link>
                             </li>
                             <Link className="nav-link larger-about" to="/GetFreeQuote" >
                             <button

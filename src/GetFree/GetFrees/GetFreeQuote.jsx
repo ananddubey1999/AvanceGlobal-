@@ -2,7 +2,16 @@
 
 import React from 'react';
 import './GetFreeQuote.css'; // Import your CSS file
-import { HiOutlineMail } from 'react-icons/hi'; // Import the mail icon from react-icons
+// Import the mail icon from react-icons
+  import { FcAndroidOs,FcMultipleDevices,
+           FcKindle ,
+           FcDepartment,
+           FcCalculator,
+           FcFaq,
+           FcViewDetails,FcShipped,
+           FcGraduationCap,
+  
+          } from "react-icons/fc";
 import { Link } from 'react-router-dom';
 
 function GetFreeQuote() {
@@ -15,77 +24,77 @@ function GetFreeQuote() {
       <h2>What type of project do you need?</h2>
       <div className="Getframes">
         {/* Frame 1 */}
-        <Link to="/contact" className="Getframe">
+        <Link to="/MobileApps" className="Getframe">
           <div className="Getframe-content">
             <div className="Geticon">
-              <HiOutlineMail size={140} /> {/* Use the mail icon */}
+              <FcAndroidOs size={120} /> {/* Use the mail icon */}
             </div>
-            <p>A paragraph goes here for Frame 1</p>
+            <p>How much to <br /> make an App</p>
           </div>
         </Link>
         <Link to="/Webdevelopment" className="Getframe">
           <div className="Getframe-content">
             <div className="Geticon">
-              <HiOutlineMail size={140} /> {/* Use the mail icon */}
+              <FcMultipleDevices size={120} /> {/* Use the mail icon */}
             </div>
-            <p>A paragraph goes here for Frame 1</p>
+            <p>Web Development <br /> Services</p>
           </div>
         </Link>
-        <Link to="/contact" className="Getframe">
+        <Link to="/CMScost" className="Getframe">
           <div className="Getframe-content">
             <div className="Geticon">
-              <HiOutlineMail size={140} /> {/* Use the mail icon */}
+              <FcKindle  size={120} /> {/* Use the mail icon */}
             </div>
-            <p>A paragraph goes here for Frame 1</p>
+            <p>How Much a <br /> CSM Cost</p>
           </div>
         </Link>
-        <Link to="/contact" className="Getframe">
+        <Link to="/RealStates" className="Getframe">
           <div className="Getframe-content">
             <div className="Geticon">
-              <HiOutlineMail size={140} /> {/* Use the mail icon */}
+              <FcDepartment size={120} /> {/* Use the mail icon */}
             </div>
-            <p>A paragraph goes here for Frame 1</p>
+            <p>How Much To Make <br /> Real-State App</p>
           </div>
         </Link>
-        <Link to="/contact" className="Getframe">
+        <Link to="/CalculateCosts" className="Getframe">
           <div className="Getframe-content">
             <div className="Geticon">
-              <HiOutlineMail size={140} /> {/* Use the mail icon */}
+              <FcCalculator size={120} /> {/* Use the mail icon */}
             </div>
-            <p>A paragraph goes here for Frame 1</p>
+            <p>Calculate Blockchain <br />Based App Cost</p>
           </div>
         </Link>
-        <Link to="/contact" className="Getframe">
+        <Link to="/Chatbot" className="Getframe">
           <div className="Getframe-content">
             <div className="Geticon">
-              <HiOutlineMail size={140} /> {/* Use the mail icon */}
+              <FcFaq size={120} /> {/* Use the mail icon */}
             </div>
-            <p>A paragraph goes here for Frame 1</p>
+            <p>How much a <br /> Chatbot Project Cost?</p>
           </div>
         </Link>
-        <Link to="/contact" className="Getframe">
+        <Link to="/CalculateCosts" className="Getframe">
           <div className="Getframe-content">
             <div className="Geticon">
-              <HiOutlineMail size={140} /> {/* Use the mail icon */}
+              <FcViewDetails size={120} /> {/* Use the mail icon */}
             </div>
-            <p>A paragraph goes here for Frame 1</p>
+            <p>Calculate Restaurant <br /> Solution Cost </p>
           </div>
         </Link>
         
-        <Link to="/contact" className="Getframe">
+        <Link to="/Restaurant" className="Getframe">
           <div className="Getframe-content">
             <div className="Geticon">
-              <HiOutlineMail size={140} /> {/* Use the mail icon */}
+              <FcShipped size={120} /> {/* Use the mail icon */}
             </div>
-            <p>A paragraph goes here for Frame 1</p>
+            <p>Calculate Restaurant <br /> Solution Cost </p>
           </div>
         </Link>
-        <Link to="/contact" className="Getframe">
+        <Link to="/TestingProjects" className="Getframe">
           <div className="Getframe-content">
             <div className="Geticon">
-              <HiOutlineMail size={140} /> {/* Use the mail icon */}
+              <FcGraduationCap size={120} /> {/* Use the mail icon */}
             </div>
-            <p>A paragraph goes here for Frame 1</p>
+            <p>Academic-Cap  <br /> Services</p>
           </div>
         </Link>
         {/* Repeat for Frame 2 to 8 */}
