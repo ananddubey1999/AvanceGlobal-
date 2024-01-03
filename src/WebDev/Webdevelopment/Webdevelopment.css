@@ -48,7 +48,7 @@
   
   .web-icon {
     font-size: 36px;
-    color: #333;
+    color: #606060;
     margin-bottom: 10px;
   }
   
@@ -62,7 +62,7 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: rgb(234, 241, 241);
+    background-color: #eaf1f1;
   }
   
   .shopping-cart h2 {

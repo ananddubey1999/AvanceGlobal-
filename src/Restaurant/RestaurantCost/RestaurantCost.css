@@ -1,0 +1,197 @@
+
+.Restaurant-free-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    text-align: center; /* Center align text */
+    padding-bottom: 5%;
+  }
+  .Restaurantframes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Space between the frames */
+    gap: 20px;
+    width: 100%;
+    margin-top:6%; /* Margin top to create space */
+  }
+
+.Restaurantframe {
+    width: calc(33.333% - 20px); /* Three frames in a row */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    height: 330px; /* Adjust height as needed */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for hover effect */
+    text-decoration:none;
+  }
+  
+  .Restaurantframe:hover {
+    transform: translateY(-10px); /* Jump effect on hover */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+  }
+  
+  .Restaurantframe-content p {
+    color: #333; /* Change text color */
+    text-decoration:none;/* Remove underline */
+
+  }
+
+  .Restaurant-free-container h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+  .Restaurant-free-container p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
+  }
+  .Restaurant-free-container h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
+  }
+
+
+  .Restaurantframe-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Restauranticon {
+    font-size: 36px; /* Adjust icon size */
+    color: #606060;
+    margin-bottom: 10px;
+  }
+  
+  /* RealState.css */
+
+/* ... (other CSS styles) */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .blue-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .blue-button:hover {
+    background-color: darkblue;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .button-container {
+      margin-top: 10px;
+    }
+  
+    .blue-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Responsive styles */
+
+  
+
+  @media (max-width: 768px) {
+    .Restaurant-free-container h1 {
+      font-size: 30px; /* Decrease heading size for smaller screens */
+      margin-top: 20px; /* Adjust margin top */
+    }
+  
+    .Restaurant-free-container p {
+      font-size: 16px; /* Decrease paragraph font size */
+      margin-top: 10px; /* Adjust margin top */
+    }
+  
+    .Restaurant-free-container h2 {
+      font-size: 24px; /* Decrease subheading size */
+      margin-top: 20px; /* Adjust margin top */
+    }
+  
+    .Restaurantframe {
+      width: calc(50% - 20px); /* Two frames in a row on smaller screens */
+      margin-top: 10px; /* Adjust margin top */
+      height: 200px; /* Adjust frame height */
+    }
+  
+    .Restaurantframe-content p {
+      font-size: 14px; /* Decrease font size for frame content */
+    }
+  
+    .Restauranticon {
+      font-size: 24px; /* Adjust icon size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Restaurant-free-container h1 {
+      font-size: 24px; /* Further decrease heading size for extra small screens */
+      margin-top: 15px; /* Adjust margin top */
+    }
+  
+    .Restaurant-free-container p {
+      font-size: 14px; /* Further decrease paragraph font size */
+      margin-top: 8px; /* Adjust margin top */
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+    }
+  
+    .Restaurant-free-container h2 {
+      font-size: 20px; /* Further decrease subheading size */
+      margin-top: 10px; /* Adjust margin top */
+    }
+  
+    .Restaurantframe {
+      width: calc(100% - 20px); /* Single frame in a row for extra small screens */
+      margin-top: 8px; /* Adjust margin top */
+      height: 260px; /* Further adjust frame height */
+    }
+  
+    .Restaurantframe-content p {
+      font-size: 14px; /* Further decrease font size for frame content */
+    }
+  
+    .Restauranticon {
+      font-size: 20px; /* Further adjust icon size */
+    }
+  }
+
+  /* RestaurantFreeQuote.css */
+
+/* Add this CSS for the hover effect */
+.Restaurantframe-link {
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .Restaurantframe-link:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Other existing styles for Restaurantframe, Restaurantframes, etc. */
+  

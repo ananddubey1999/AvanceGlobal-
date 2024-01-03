@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { RotateLoader } from 'react-spinners';
 import Training from '../Tarinings/Training/Training';
 import OnDemand from '../Tarinings/OnDemand/OnDemand';
 import Compliance from '../Tarinings/Compliance/Compliance';
@@ -8,6 +7,7 @@ import Footer from '../Componants/footer/footer';
 import Analysis from '../Tarinings/Technical Analysis/Analysis';
 import GoToTop from './GoToTop';
 import { ThemeProvider } from 'styled-components';
+import { RotateLoader } from 'react-spinners';
 
 function Trainings() {
   const [isLoading, setIsLoading] = useState(true);
@@ -16,7 +16,7 @@ function Trainings() {
     // Simulating a delay for the loading effect (you can replace this with actual data fetching)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // Adjust the duration as needed
+    }, 1000); // Adjust the duration as needed
 
     // Clean-up function to clear the timer
     return () => clearTimeout(timer);

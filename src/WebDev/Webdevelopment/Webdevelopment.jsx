@@ -1,35 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import {
-  HiOutlineMail,
-  HiOutlinePhone,
-  HiOutlineDesktopComputer,
-  HiOutlineChatAlt2,
-  HiOutlineCalculator,
-  HiOutlinePhotograph,
-  HiOutlinePresentationChartLine,
-  HiOutlineShoppingBag,
-  HiOutlineAcademicCap,
-  HiOutlineMusicNote,
-  HiOutlineFilm,
-  HiOutlineColorSwatch,
-  HiOutlineSpeakerphone,
-} from 'react-icons/hi';
+ FcFeedback,FcCallback ,FcTimeline ,FcCollaboration,FcCalculator,FcAddImage,FcDebt,
+ FcShop,FcDiploma2,FcParallelTasks ,FcAdvertising,FcRatings
+
+} from "react-icons/fc";
 import './Webdevelopment.css';
 
 function Webdevelopment() {
   const framesData = [
-    { id: 1, name: 'Mail Service', icon: <HiOutlineMail size={100} />, price: 10 },
-    { id: 2, name: 'Phone Support', icon: <HiOutlinePhone size={100} />, price: 15 },
-    { id: 3, name: 'Desktop Development', icon: <HiOutlineDesktopComputer size={100} />, price: 20 },
-    { id: 4, name: 'Chat Functionality', icon: <HiOutlineChatAlt2 size={100} />, price: 12 },
-    { id: 5, name: 'Calculator Feature', icon: <HiOutlineCalculator size={100} />, price: 18 },
-    { id: 6, name: 'Photo Gallery', icon: <HiOutlinePhotograph size={100} />, price: 25 },
-    { id: 7, name: 'Presentation Tools', icon: <HiOutlinePresentationChartLine size={100} />, price: 30 },
-    { id: 8, name: 'Shopping Cart', icon: <HiOutlineShoppingBag size={100} />, price: 22 },
-    { id: 9, name: 'Education', icon: <HiOutlineAcademicCap size={100} />, price: 25 },
-    { id: 10, name: 'Music Player', icon: <HiOutlineMusicNote size={100} />, price: 20 },
-    { id: 11, name: 'Video Player', icon: <HiOutlineFilm size={100} />, price: 28 },
-    { id: 13, name: 'Speakers', icon: <HiOutlineSpeakerphone size={100} />, price: 30 },
+    { id: 1, name: 'Mail Service', icon: <FcFeedback size={100} />, price: 10 },
+    { id: 2, name: 'Phone Support', icon: <FcCallback  size={100} />, price: 15 },
+    { id: 3, name: 'Desktop Development', icon: <FcTimeline  size={100} />, price: 20 },
+    { id: 4, name: 'Chat Functionality', icon: <FcCollaboration size={100} />, price: 12 },
+    { id: 5, name: 'Calculator Feature', icon: <FcCalculator size={100} />, price: 18 },
+    { id: 6, name: 'Photo Gallery', icon: <FcAddImage size={100} />, price: 25 },
+    { id: 7, name: 'Presentation Tools', icon: <FcDebt size={100} />, price: 30 },
+    { id: 8, name: 'Shopping Cart', icon: <FcShop size={100} />, price: 22 },
+    { id: 9, name: 'Education', icon: <FcDiploma2 size={100} />, price: 25 },
+    { id: 10, name: 'Music Player', icon: <FcParallelTasks  size={100} />, price: 20 },
+    { id: 11, name: 'Video Player', icon: <FcRatings size={100} />, price: 28 },
+    { id: 13, name: 'Speakers', icon: <FcAdvertising size={100} />, price: 30 },
     // ... Add more frames with their respective icons, names, and prices as needed
   ];
     const [cart, setCart] = useState([]);
@@ -106,9 +96,11 @@ function Webdevelopment() {
                       </div>
                       ))}
                      </div>
-             <div className="total-price">
-                 <p>Total Price: ${totalPrice}</p>
-         </div>
+                     <div className="total-price-container"> {/* Added container for Total Price */}
+            <div className="total-price" style={{ color : 'white', backgroundColor: '#494848' , height:'50px' ,  }}> {/* Blue background color */}
+              <p>Total Price: ${totalPrice}</p>
+            </div>
+          </div>
       </div>
    </div>
 </div>

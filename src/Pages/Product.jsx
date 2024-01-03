@@ -17,7 +17,7 @@ function Product() {
     // Simulating a delay for the loading effect (you can replace this with actual data fetching)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // Adjust the duration as needed
+    }, 1000); // Adjust the duration as needed
 
     // Clean-up function to clear the timer
     return () => clearTimeout(timer);
@@ -77,7 +77,7 @@ function Product() {
           // Display content once loading is finished
           <>
             <Products />
-            <Insure />
+            <Insure  />
             <Invest />
             <AvanceTest />
             <AvanceEdu />
